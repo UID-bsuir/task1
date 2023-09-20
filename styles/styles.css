@@ -1,0 +1,21 @@
+body {
+    margin: 0px;
+    background-color: #181818;
+    font-family: 'Krub', sans-serif;
+}
+
+/* 
+    гарнитура Krub встречается чаще, 
+    поэтому она прописана в body. 
+    В классах текстовых тегов, где 
+    встречается Oswald, используем:
+
+    font-family: 'Oswald', sans-serif;
+
+    Что касается весов, то вот шпаргалочка:
+            
+    Regular                     400
+    Medium                      500              
+    Semibold                    600
+    Bold                        700 
+*/
