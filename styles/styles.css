@@ -1,0 +1,35 @@
+body {
+    margin: 0px;
+    background-color: #181818;
+    font-family: 'Krub', sans-serif;
+    color: #FFF;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+/* 
+    гарнитура Krub встречается чаще, 
+    поэтому она прописана в body. 
+    В классах текстовых тегов, где 
+    встречается Oswald, используем:
+
+    font-family: 'Oswald', sans-serif;
+
+    Что касается весов, то вот шпаргалочка:
+         
+    Light                       300
+    Regular                     400
+    Medium                      500              
+    Semibold                    600
+    Bold                        700 
+*/
+
+.hero-wrapper {
+    width: 1440px;
+}
+
+.section-accept-challenges {
+    display: flex;
+}
