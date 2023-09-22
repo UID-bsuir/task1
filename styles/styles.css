@@ -1,5 +1,11 @@
-body {
+* {
     margin: 0px;
+    padding: 0px;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+}
+
+body {
     background-color: #181818;
     font-family: 'Krub', sans-serif;
     color: #FFF;
@@ -7,6 +13,10 @@ body {
     display: flex;
     justify-content: center;
 
+}
+
+.hero-wrapper {
+    width: 1440px;
 }
 
 /* 
@@ -26,10 +36,112 @@ body {
     Bold                        700 
 */
 
-.hero-wrapper {
-    width: 1440px;
+
+/* SECTION 2 (accept new challenges,
+   explore, about, down arrow) */
+
+.section-2-new-challenges {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+
+    padding: 0 56px 0 56px;
+    height: 860px;
 }
 
-.section-accept-challenges {
+.wrapper-top-2 {
     display: flex;
+    justify-content: space-between;
+
+    height: 513px;
+}
+
+.wrapper-side-2 {
+    display: flex;
+    flex-direction: column;
+
+    width: 100px;
+    font-weight: 700;
+}
+
+.wrapper-side-2 p {
+    font-size: 16px;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+ 
+.aligned-left-2 {
+    justify-content: space-evenly;
+}
+
+.aligned-right-2 div {
+    transform: rotate(90deg);
+    transform-origin: right;
+    margin: 0 7px 0 84px;
+}
+
+
+.aligned-left-2 div {
+    transform: rotate(270deg);
+    transform-origin: left;
+    margin: 0 0 57px 5px;
+}
+
+.wrapper-side-2 div {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.wrapper-central-header-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+
+    font-size: 57px;
+    line-height: 100px;
+    letter-spacing: 5.2px;
+    text-transform: uppercase;
+    text-align: center;
+
+    margin-top: 20px;
+    margin-left: 3px ;
+
+    background: url('../images/oval_with_circles.png') no-repeat;
+    background-size: 74.5%;
+    background-position: 139px 33px;
+}
+
+.wrapper-central-header-2 span {
+    letter-spacing: 5px;
+    font-weight: 300;
+}
+
+.wrapper-bottom-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper-bottom-2 p {
+    font-weight: bold;
+    color: #252525;
+    font-size: 52px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    width: 250px;
+}
+
+.wrapper-bottom-2 img {
+    padding-top: 16px;
+}
+
+.wrapper-bottom-2 img {
+    padding-top: 16px;
+}
+
+.wrapper-bottom-2 p:last-child {
+    text-align: end;
+    padding-right: 2px;
 }
