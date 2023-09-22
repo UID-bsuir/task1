@@ -17,6 +17,7 @@ body {
 
 .hero-wrapper {
     width: 1440px;
+
 }
 
 /* 
@@ -28,12 +29,13 @@ body {
     font-family: 'Oswald', sans-serif;
 
     Что касается весов, то вот шпаргалочка:
-         
+
     Light                       300
     Regular                     400
     Medium                      500              
     Semibold                    600
     Bold                        700 
+
 */
 
 
@@ -145,3 +147,4 @@ body {
     text-align: end;
     padding-right: 2px;
 }
+
