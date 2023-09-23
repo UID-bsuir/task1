@@ -9,7 +9,6 @@ body {
     background-color: #181818;
     font-family: 'Krub', sans-serif;
     color: #FFF;
-
     display: flex;
     justify-content: center;
 
@@ -148,3 +147,148 @@ body {
     padding-right: 2px;
 }
 
+/* section 3 (find your course,
+four course cards, more courses)  */
+
+.courses-3 {
+    height: 835px;
+}
+
+.courses-title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 57.5px;
+}
+
+.courses-title-left {
+    font-size: 29.75pt;
+    font-weight: 400;
+    margin-left: 57px;
+}
+
+.courses-title-left-find {
+    font-weight: 700;
+    letter-spacing: 3px;
+    font-size: 116px;
+}
+
+.courses-title-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+    font-weight: 700;
+    font-size: 13.27pt;
+}
+
+.courses-title-right * {
+    letter-spacing: 3px;
+}
+
+.courses-title-right p {
+    margin-top: 65px;
+    margin-left: 17px;
+}
+
+.courses-title-right-year {
+    font-size: 20.79pt;
+}
+
+.cards-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cards {
+    width: 1325px;
+    margin-top: 37.5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card {
+    width: 284px;
+    height: 368px;
+    border: 3px solid white;
+}
+.card-number {
+    width: 46px;
+    height: 46px;
+    font-size: 15pt;
+    font-weight: 600;
+    background-color: white;
+    color: black;
+    line-height: 46px;
+    text-align: center;
+}
+
+.card div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.card div p {
+    width: 200px;
+    font-size: 10.26pt;
+    font-weight: 600;
+    text-align: justify;
+    margin-bottom: 31px;
+    line-height: 26px;
+}
+
+.card div h1 {
+    margin-top: 28px;
+    margin-bottom: 16.5px;
+    font-size: 24pt;
+    font-weight: 600;
+}
+
+.card div h1 span {
+    color: #b885fc;
+}
+
+
+.line {
+    width: 53px;
+    height: 2.5px;
+    background-color: #b885fc;
+    border-radius: 10%;
+    margin-bottom: 17.5px;
+}
+
+button {
+   width: 125px;
+   height: 48px;
+   background-color: #b885fd; 
+   font-size: 10.38pt;
+   font-weight: 700;
+   color: rgb(241, 241, 241);
+   border: 1px solid rgb(84, 63, 11);
+   font-family: 'Oswald', sans-serif;
+}
+.fa-xs {
+    font-size: 0.7em;
+    margin-top: 30px;
+}
+.more-courses {
+    margin-right: 74px;
+    letter-spacing: 1px;
+    margin-top: 46px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.more-courses p {
+    font-family: 700;
+}
+
+.more-courses img {
+    margin-left: 81px;
+    transform: rotate(-90deg);
+}
