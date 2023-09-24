@@ -352,20 +352,32 @@ four course cards, more courses)  */
     display: flex;
     justify-content: space-between;
 }
+.wrapper-sideLeftText{
+    font-size: 100px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color:#252525;
+    text-transform: uppercase;
+    transform: rotate(-90deg);
+}
 
 .wrapper-sideLeft-dudeInCircle-5{
     width:664px;
-    height:445px;
-    transform: rotateX(180deg);
+    height:642px;
     background: url('../images/oval_with_circles.png') no-repeat;
     background-size:100%;
+    background-position-y: 165px;
+    display: flex;
+    justify-content: center;    
+    flex-wrap: wrap;
 }
 .wrapper-sideLeft-dudeInCircle-5 img{
-    transform: rotateX(180deg);
-    background-size: cover;
+    margin-right: 91px;
+    position: absolute;
 }
 
 .wrapper-sideRight-texter-5{
+    margin-top: 72px;
     width:504px;
     height:430px;
     /*127*/
@@ -376,6 +388,8 @@ four course cards, more courses)  */
     width:376px;
     letter-spacing: 0.015em;
     line-height: 24px;
+    margin-bottom: 44px;/* idk what's the value */
+    margin-top: 47px;
 }
 .wrapper-sideRight-texter-5 p:first-child{
     font-weight: 700;
@@ -405,6 +419,7 @@ four course cards, more courses)  */
     background-color: #333;
 }
 .circle-5{
+    margin-top: 72px;
     width:395px;
     height:395px;
     background-color: #aa84f9;
