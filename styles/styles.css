@@ -344,6 +344,74 @@ four course cards, more courses)  */
     transform: rotate(-90deg);
 }
 
+/* SECTION 5 (y us, read море)*/
+
+.section-5-whyUs-more{
+    height: 700px;      /* i guess, this will be modified */
+    padding: 0 56px 0 56px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper-sideLeft-dudeInCircle-5{
+    width:664px;
+    height:445px;
+    transform: rotateX(180deg);
+    background: url('../images/oval_with_circles.png') no-repeat;
+    background-size:100%;
+}
+.wrapper-sideLeft-dudeInCircle-5 img{
+    transform: rotateX(180deg);
+    background-size: cover;
+}
+
+.wrapper-sideRight-texter-5{
+    width:504px;
+    height:430px;
+    /*127*/
+}
+.wrapper-sideRight-texter-5 p{
+    font-size: 13px;
+    font-weight: 600;
+    width:376px;
+    letter-spacing: 0.015em;
+    line-height: 24px;
+}
+.wrapper-sideRight-texter-5 p:first-child{
+    font-weight: 700;
+    font-size: 58px;
+}
+.wrapper-sideRight-texter-5 span{
+    color:#aa84f9;
+    letter-spacing: 0.1em;
+    font-size: 58px;
+    font-weight: 400;
+}
+.wrapper-sideRight-texter-5 button{
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    background-color: #aa84f9;
+    width:126px;
+    height:50px;
+    font-size: 13px;
+    letter-spacing: 0.05em;
+    color:#ffffff;
+    font-weight: 600;
+    border:none;
+    
+    /*height from top = 44px*/
+}
+.wrapper-sideRight-texter-5 button:hover{
+    background-color: #333;
+}
+.circle-5{
+    width:395px;
+    height:395px;
+    background-color: #aa84f9;
+    border-radius: 50%;
+}
+
+
 /* SECTION 6 (start now 'video') */
 
 .section-6-video-start-now {
