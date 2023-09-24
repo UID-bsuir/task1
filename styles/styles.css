@@ -9,7 +9,6 @@ body {
     background-color: #181818;
     font-family: 'Krub', sans-serif;
     color: #FFF;
-
     display: flex;
     justify-content: center;
 
@@ -148,3 +147,200 @@ body {
     padding-right: 2px;
 }
 
+/* section 3 (find your course,
+four course cards, more courses)  */
+
+.section-3-courses {
+    height: 835px;
+    padding: 0 56px 0 56px;
+
+}
+
+.wrapper-title-3 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 94px;
+}
+
+.header-left-3 {
+    margin-left: -7px;
+    font-size: 29.75pt;
+    font-weight: 400;
+}
+
+
+.header-left-3 span:first-child {
+    font-weight: 700;
+    letter-spacing: 3px;
+    font-size: 116px;
+    text-transform: uppercase;
+}
+
+.header-left-3 span:last-child {
+    letter-spacing: 3.1px;
+    padding-left: 1px;
+}
+
+.wrapper-title-right-3 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 16px;
+
+    font-weight: 700;
+    font-size: 17.5px;
+    letter-spacing: 3.4px;
+    line-height: 28px;
+    text-transform: uppercase;
+
+    padding-bottom: 13px;
+    margin-right: -4px;
+}
+
+.wrapper-title-right-3 span {
+    font-size: 30px;
+    letter-spacing: 6px;
+}
+ 
+.wrapper-title-right-3 i {
+    padding-bottom: 48px;
+}
+
+.wrapper-cards-3 {
+    display: flex;
+    align-items: center;
+}
+
+.wrapper-cards-3 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 45px;
+
+    margin-top: 37.5px;
+    margin-left: -1px;
+}
+
+.wrapper-card-3 {
+    width: 291px;
+    height: 376px;
+    border: 3px solid white;
+    box-sizing: border-box;
+}
+
+.wrapper-card-3.wrapper-card-3:first-child  {
+    margin-right: 15px;
+}
+
+.wrapper-card-3.wrapper-card-3:last-child {
+    margin-left: 12px;
+}
+
+.wrapper-card-3 p:first-child {
+    width: 45px;
+    height: 44px;
+
+    margin-left: -3px;
+
+    background-color: white;
+
+    font-size: 15pt;
+    font-weight: 600;
+    text-align: center;
+    color: black;
+    line-height: 46px;
+    line-height: 42px;
+    letter-spacing: 1.5px;
+}
+
+.wrapper-card-3 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wrapper-card-3 div p {
+    width: 230px;
+
+    margin-bottom: 31px;
+
+    font-size: 10.26pt;
+    font-weight: 600;
+    text-align: center;
+    line-height: 27px;
+    letter-spacing: 1px;
+}
+
+ 
+.wrapper-card-3 h3 {
+    margin-top: 29px;
+    margin-bottom: 13px;
+
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+}
+
+.wrapper-card-3 h3 span {
+    color: #b885fc;
+}
+
+.wrapper-card-3 hr {
+    width: 53px;
+    height: 2px;
+
+    background-color: #b885fc;
+    border-radius: 10%;
+    margin-bottom: 15px;
+    border: black 1px solid;
+}
+
+.wrapper-card-3 button {
+   width: 125px;
+   height: 48px;
+
+   padding-bottom: 3px;
+
+   background-color: #b885fd; 
+   border: 1px solid rgb(84, 63, 11);
+
+   font-family: 'Oswald', sans-serif;
+   font-size: 15px;
+   font-weight: 700;
+   letter-spacing: 0.6px;
+   color: #FFF;
+   text-transform: uppercase;
+}
+
+.wrapper-card-3 button:hover {
+    color: #b885fd;
+    background-color: #FFF;
+}
+
+.wrapper-more-courses-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 46px 69px 0 0;
+
+    letter-spacing: 0.6px;
+    font-weight: 700;
+}
+
+.wrapper-more-courses-3 p {
+    margin-right: 81px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+.wrapper-more-courses-3 p:hover {
+    color:#b885fd
+}
+
+.wrapper-more-courses-3 img {
+    transform: rotate(-90deg);
+}
