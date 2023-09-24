@@ -451,3 +451,47 @@ four course cards, more courses)  */
     margin-bottom: 58px;
     margin-left: 12px;
 }
+
+/* SECTION 7 (reviews, comments) */
+.section-7-reviews-comments{
+    height:750px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.wrapper-top-text-7{
+    color:#aa84f9;
+}
+.wrapper-top-text-7 span{
+    text-transform: uppercase;
+    color:#fff;
+}
+.wrapper-allReviews-7{
+    height:440px;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.wrapper-review1-7{
+    width:264px;
+    height:400px;
+}
+.wrapper-review2-7{
+    width:281px;
+    height:440px;
+}
+.wrapper-review3-7{
+    width:264px;
+    height:395px;
+}
+.wrapper-bottom-arrows-7{
+    height:23px;
+}
+.wrapper-bottom-arrows-7 img:first-child{
+    transform: rotate(90deg);   
+}
+.wrapper-bottom-arrows-7 img{
+    transform: rotate(-90deg);
+}
