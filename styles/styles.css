@@ -359,6 +359,7 @@ four course cards, more courses)  */
     color:#252525;
     text-transform: uppercase;
     transform: rotate(-90deg);
+    height:30px;
 }
 
 .wrapper-sideLeft-dudeInCircle-5{
