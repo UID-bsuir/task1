@@ -565,6 +565,16 @@ four course cards, more courses)  */
     line-height: 27px;
     text-transform: uppercase;
 }
+.quotes-7::before{
+    content: "“";
+    color: #9172d1;
+    font-size: 30px;
+}
+.quotes-7::after{
+    content:"”";
+    color: #9172d1;
+    font-size: 30px;
+}
 .wrapper-bottom-arrows-7{
 
     display: flex;
