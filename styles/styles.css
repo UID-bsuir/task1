@@ -261,15 +261,16 @@ four course cards, more courses)  */
 }
 
 .wrapper-card-3 div p {
-    width: 230px;
+    width: 209px;
 
     margin-bottom: 31px;
 
     font-size: 10.26pt;
     font-weight: 600;
-    text-align: center;
-    line-height: 27px;
+    text-align: justify;
+    line-height: 26.5px;
     letter-spacing: 1px;
+    text-align-last: center;
 }
 
  
@@ -293,7 +294,7 @@ four course cards, more courses)  */
 
     background-color: #b885fc;
     border-radius: 10%;
-    margin-bottom: 15px;
+    margin-bottom: 17px;
     border: black 1px solid;
 }
 
