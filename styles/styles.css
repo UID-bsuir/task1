@@ -462,10 +462,16 @@ four course cards, more courses)  */
 }
 .wrapper-top-text-7{
     color:#aa84f9;
+    font-weight: 400;
+    font-size:42px;
+    letter-spacing: 0.1em;
 }
 .wrapper-top-text-7 span{
     text-transform: uppercase;
     color:#fff;
+    font-weight: 700;
+    font-size:93px;
+    letter-spacing: 0em;
 }
 .wrapper-allReviews-7{
     height:440px;
@@ -474,24 +480,108 @@ four course cards, more courses)  */
     flex-direction: row;
     justify-content: space-between;
 }
+
 .wrapper-review1-7{
     width:264px;
     height:400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.wrapper-review1-7 p{
+    color:#aeaeae;
+    font-weight: 600;
+    font-size:12px;
+    letter-spacing: 0.015em;
+    line-height: 23px;
+}
+.wrapper-review1-7 p:first-child{
+    /* it doesnt apply!! */
+    font-size:18px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 27px;
+    text-transform: uppercase;
 }
 .wrapper-review2-7{
     width:281px;
     height:440px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;     /* code duplication!! */
+}
+.wrapper-review2-7 p{
+    color:#aeaeae;
+    font-weight: 600;
+    font-size:12px;
+    letter-spacing: 0.015em;
+    line-height: 23px;
+}
+.wrapper-review2-7 p:first-child{
+    /* it doesnt apply!! */
+    font-size:18px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 27px;
+    text-transform: uppercase;
+}
+.wrapper-reviews-imgBlock-7{
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    width:178px;
+    height:178px;
+    border: #9172d1 3px solid;
+    border-radius: 50%;
+}
+.wrapper-stars-7{
+    display: flex;
+    justify-content: space-between;
+    width:134px;
+}
+.wrapper-review2-7 img{
+    margin-top:-46px;
+    margin-left:-58px;
 }
 .wrapper-review3-7{
     width:264px;
     height:395px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;         /* code duplication!! */
+}
+.wrapper-review3-7 p{
+    color:#aeaeae;
+    font-weight: 600;
+    font-size:12px;
+    letter-spacing: 0.015em;
+    line-height: 23px;
+}
+.wrapper-review3-7 p:first-child{
+    /* it doesnt apply!! */
+    font-size:18px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 27px;
+    text-transform: uppercase;
 }
 .wrapper-bottom-arrows-7{
-    height:23px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: baseline;  /* is it proper? */
+    width:300px;
+    /* and what's with the height? */
+    
 }
+
 .wrapper-bottom-arrows-7 img:first-child{
     transform: rotate(90deg);   
+    margin-bottom: 68px;
 }
-.wrapper-bottom-arrows-7 img{
+.wrapper-bottom-arrows-7 img:last-child{
     transform: rotate(-90deg);
+    margin-top: 68px;    
 }
