@@ -350,16 +350,23 @@ four course cards, more courses)  */
     height: 700px;      /* i guess, this will be modified */
     padding: 0 56px 0 56px;
     display: flex;
+    border: yellow 1px solid;
     justify-content: space-between;
 }
 .wrapper-sideLeftText{
-    font-size: 100px;
+    display: flex;
+    font-size: 60px;
     font-weight: 700;
     letter-spacing: 0.05em;
-    color:#252525;
+    /* color:#252525; */
+    width: 85px;
+    color: red  ;
     text-transform: uppercase;
+}
+
+.wrapper-sideLeftText p {
     transform: rotate(-90deg);
-    height:30px;
+    height: 60px;
 }
 
 .wrapper-sideLeft-dudeInCircle-5{
@@ -373,7 +380,7 @@ four course cards, more courses)  */
     flex-wrap: wrap;
 }
 .wrapper-sideLeft-dudeInCircle-5 img{
-    margin-right: 91px;
+    margin-left: 85px;
     position: absolute;
 }
 
