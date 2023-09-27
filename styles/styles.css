@@ -460,17 +460,21 @@ four course cards, more courses)  */
     flex-wrap: wrap;
 }
 .wrapper-top-text-7{
+    height:196px;
     color:#aa84f9;
     font-weight: 400;
     font-size:42px;
-    letter-spacing: 0.1em;
+    letter-spacing: 4.2px;
+    text-align: center;
+    line-height: 52.8px;
+    padding-top: 50px;
 }
 .wrapper-top-text-7 span{
     text-transform: uppercase;
     color:#fff;
     font-weight: 700;
     font-size:93px;
-    letter-spacing: 0em;
+    letter-spacing: 3px;
 }
 .wrapper-allReviews-7{
     height:440px;
@@ -480,26 +484,14 @@ four course cards, more courses)  */
 }
 .wrapper-review-7{
     width:264px;
-    height:400px;
+    height:425px;
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
 }
 
-.wrapper-review-7 p{
-    color:#aeaeae;
-    font-weight: 600;
-    font-size:12px;
-    letter-spacing: 0.015em;
-    line-height: 23px;
-}
-.wrapper-review-7 p:first-child{
-    font-size:18px;
-    font-weight: 700;
-    letter-spacing: 0;
-    line-height: 27px;
-    text-transform: uppercase;
-}
 /*
 .wrapper-review-7 img{
     display: inline-block;
@@ -513,13 +505,23 @@ four course cards, more courses)  */
 */
 
 .wrapper-reviews-imgBlock-7{
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
     overflow: hidden;
-    width:178px;
-    height:178px;
+    width:174px;
+    height:174px;
     border: #9172d1 3px solid;
     border-radius: 50%;
+}
+.wrapper-name-7{
+    color:#aeaeae;
+    font-size:18px;
+    font-weight: 700;
+    letter-spacing: 1.7px;
+    line-height: 27px;
+    text-transform: uppercase;
 }
 .wrapper-stars-7{
     display: flex;
@@ -528,12 +530,16 @@ four course cards, more courses)  */
 }
 
 .quotes-7{
+    width:231px;
+    text-align: justify;
+    text-align-last: center;
     color:#aeaeae;
     font-weight: 600;
-    font-size:12px;
+    font-size:13px;
     letter-spacing: 0.015em;
-    line-height: 23px;
+    line-height: 23.55px;
 }
+/*
 .quotes-7::before{
     content: "“";
     color: #9172d1;
@@ -544,6 +550,7 @@ four course cards, more courses)  */
     color: #9172d1;
     font-size: 30px;
 }
+*/
 .wrapper-bottom-arrows-7{
 
     display: flex;
@@ -551,7 +558,7 @@ four course cards, more courses)  */
     justify-content: space-between;
     flex-wrap: nowrap;
     align-items: baseline;  /* is it proper? */
-    width:300px;
+    width:220px;
     /* and what's with the height? */
     
 }
