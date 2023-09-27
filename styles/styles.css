@@ -350,7 +350,6 @@ four course cards, more courses)  */
     height: 700px;      /* i guess, this will be modified */
     padding: 0 56px 0 56px;
     display: flex;
-    border: yellow 1px solid;
     justify-content: space-between;
 }
 
@@ -366,7 +365,7 @@ four course cards, more courses)  */
 }
 
 .wrapper-sideLeft-dudeInCircle-5 img{
-    margin-left: 64px;
+    margin-left: 76px;
     position: absolute;
 }
 
@@ -377,32 +376,38 @@ four course cards, more courses)  */
     align-items: end;
     margin-top: 72px;
     width:560px;
-    height:581px;
+    height:579px;
     margin-right:-56px;
-    /*127*/
 }
 .wrapper-text-no-circle-5{
     display: flex;
+    
 }
 .wrapper-sideRight-mainText-5{
-    width:504px;
+    width:500px;
+}
+.wrapper-sideRight-mainText-5 p:first-child{
+    margin-bottom: 51px;
+    margin-top: 58px;
 }
 .wrapper-sideRight-mainText-5 p{
     font-size: 13px;
     font-weight: 600;
     width:376px;
-    letter-spacing: 0.015em;
-    line-height: 24px;
-    margin-bottom: 44px;/* idk what's the value */
-    margin-top: 47px;
+    letter-spacing: 1px;
+    line-height: 24.8px;
+    margin-bottom: 39px;/* idk what's the value */
+    
 }
 .wrapper-sideRight-mainText-5 p:first-child{
     font-weight: 700;
-    font-size: 58px;
+    font-size: 60px;
+    letter-spacing: 4px;
 }
 .wrapper-sideRight-mainText-5 span{
+    padding-left:10px;
     color:#aa84f9;
-    letter-spacing: 0.1em;
+    letter-spacing: 8px;
     font-size: 58px;
     font-weight: 400;
 }
@@ -413,7 +418,7 @@ four course cards, more courses)  */
     width:126px;
     height:50px;
     font-size: 13px;
-    letter-spacing: 0.05em;
+    letter-spacing: 1.5px;
     color:#ffffff;
     font-weight: 600;
     border:none;
@@ -424,25 +429,25 @@ four course cards, more courses)  */
     background-color: #333;
 }
 .wrapper-sideRightText-5{
-    width:56px;
+    width:59px;
     display: flex;
     flex-wrap:wrap;
-    align-content: center;
+    align-content: flex-end;
     justify-content: center;
 
 }
 
 .wrapper-sideRightText-5 p {
     transform: rotate(-90deg);
-    font-size: 100px;
+    font-size: 103px;
     font-weight: 700;
-    letter-spacing: 0.05em;
+    letter-spacing: 6.2px;
     line-height: 120px;
     color:#252525; 
-    width: 85px;
+    width: 273px;
     position: relative;
-
-    left: 8px;
+    text-align: justify;
+    left: 10px;
     text-transform: uppercase;
 }
 .circle-5{
@@ -457,7 +462,7 @@ four course cards, more courses)  */
     height:22px;
     background-color: #aa84f9;
     border-radius: 50%;
-    margin-right:131px;
+    margin-right:132px;
 }
 
 
