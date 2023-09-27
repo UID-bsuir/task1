@@ -452,3 +452,130 @@ four course cards, more courses)  */
     margin-bottom: 58px;
     margin-left: 12px;
 }
+
+/* FOOTER */
+
+.footer { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+
+    height: 741px;
+    padding: 0 58px 0 58px;
+    margin-top: 30px;
+
+    background-color: #976ECE;
+}
+
+.footer > div {
+    display: flex;
+    justify-content: space-between;
+
+    padding-top: 79px;
+}
+
+.wrapper-lists-f {
+    display: flex;
+    justify-content: space-between;
+
+    width: 555px;
+}
+
+.wrapper-lists-f div:first-child hr {
+    width: 116px
+}
+
+.wrapper-lists-f div:last-child h3 {
+    letter-spacing: 3.9px;
+}
+
+.wrapper-list-f h3 {
+    font-size: 32px;
+    letter-spacing: 4.86px;
+}
+
+.wrapper-list-f hr {
+    width: 213px;
+    border: none;
+    height: 2px;
+    margin: 6px 0 29px 0;
+
+    background-color: #FFF;
+}
+
+.wrapper-list-f p {
+    margin-bottom: 12.9px;
+    font-size: 24px;
+    letter-spacing: 0.59px;
+}
+
+.wrapper-sign-up-f {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.wrapper-sign-up-f p {
+    font-size: 32px;
+    text-align: right;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0.7px;
+}
+
+.wrapper-second-line-3 {
+    display: flex;
+    justify-content: flex-end;
+    gap: 17px;
+    
+    padding-right: 1px;
+    margin-top: 10px;
+}
+
+.wrapper-second-line-3 hr {
+    width: 45px;
+    height: 2px;
+    border: none;
+    background-color: white;
+    padding-left: 3px;
+    margin-top: 32px
+}
+
+.wrapper-input {
+    box-sizing: border-box;
+    border: #FFF 3px solid;
+    height: 66px;
+    width: 500px;
+
+    margin: 54px 0 57px 0;
+}
+
+.wrapper-brands-f i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 65px;
+    height: 65px;
+    border-radius: 100px;
+
+    background-color: white;
+}   
+
+.wrapper-brands-f {
+    display: flex;
+    align-items: center;
+    gap: 67.5px;
+ 
+    padding-right: 2px;
+}
+
+.wrapper-brands-f p {
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    padding-bottom: 4px;
+
+    margin-right: -22px;
+}
