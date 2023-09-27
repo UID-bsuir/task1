@@ -396,7 +396,7 @@ four course cards, more courses)  */
     width:376px;
     letter-spacing: 1px;
     line-height: 24.8px;
-    margin-bottom: 39px;/* idk what's the value */
+    margin-bottom: 39px;
     
 }
 .wrapper-sideRight-mainText-5 p:first-child{
@@ -422,8 +422,6 @@ four course cards, more courses)  */
     color:#ffffff;
     font-weight: 600;
     border:none;
-    
-    /*height from top = 44px*/
 }
 .wrapper-sideRight-mainText-5 button:hover{
     background-color: #333;
