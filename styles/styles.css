@@ -16,7 +16,7 @@ body {
 
 .hero-wrapper {
     width: 1440px;
-
+    overflow: hidden;
 }
 
 /* 
