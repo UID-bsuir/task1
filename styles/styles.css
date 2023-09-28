@@ -454,6 +454,7 @@ four course cards, more courses)  */
 
 /* SECTION 7 (reviews, comments) */
 .section-7-reviews-comments{
+    padding: 0 56px 0 56px;
     height:750px;
     display: flex;
     justify-content: center;
@@ -480,29 +481,17 @@ four course cards, more courses)  */
     height:440px;
     width:100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 .wrapper-review-7{
-    width:330px;
+    width:400px;
     height:413px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    text-align: center;
+    text-align: center; 
 }
-
-/*
-.wrapper-review-7 img{
-    display: inline-block;
-    position: relative;
-    overflow: hidden;
-    width:178px;
-    height:178px;
-    border: #9172d1 3px solid;
-    border-radius: 50%;
-}
-*/
 
 .wrapper-reviews-imgBlock-7{
     display: flex;
@@ -510,11 +499,60 @@ four course cards, more courses)  */
     align-items: center;
     position: relative;
     overflow: hidden;
-    width:174px;
-    height:174px;
     border: #9172d1 3px solid;
     border-radius: 50%;
     margin-bottom:2px;
+}
+
+.reviews-first-7{
+    width:441px;
+    padding-right:2px;
+}
+.reviews-second-7{
+    width:428px;
+    margin-left:8px;
+}
+.reviews-third-7{
+    width:446px;
+    padding-right:4px;
+}
+
+.reviews-first-7 div:first-child{
+    width:174px;
+    height:174px;
+    margin-bottom:3px;
+}
+.reviews-first-7 div:first-child img{
+    padding-left: 5px;
+    padding-top:5px;
+}
+.reviews-first-7 div:nth-child(3){
+    margin-top:1px;
+    margin-left:-5px;
+}
+.reviews-second-7 div:first-child{
+    margin-top: 3px;
+    width:168px; 
+    height:168px;
+    margin-bottom: 6px;    
+    margin-left:7px;
+}
+.reviews-second-7 div:first-child img{
+    padding-right:8px;
+    padding-top:20px;
+}
+.reviews-third-7 div:first-child{
+    margin-top:4px;
+    width:166px; 
+    height:166px;
+    margin-bottom:6px;
+}
+.reviews-third-7 div:nth-child(3){
+    padding-right:10px;
+}
+.reviews-third-7 div:first-child img{
+    padding-right:18px;
+    padding-top:14px;
 }
 .wrapper-name-7{
     color:#aeaeae;
@@ -534,7 +572,7 @@ four course cards, more courses)  */
 
 .quotes-7{
     height:120px;
-    width:231px;
+    width:251px;
     text-align: justify;
     text-align-last: center;
     color:#aeaeae;
@@ -543,29 +581,37 @@ four course cards, more courses)  */
     letter-spacing: 0.015em;
     line-height: 24px;
     margin-top:5px;
+    margin-bottom:-2px;
+    position: relative;
 }
-/*
-.quotes-7::before{
-    content: "“";
+.quotes-7 p{
+    width:231px;
+    margin-left: 10px;
+}
+.quote-ico-7{
     color: #9172d1;
-    font-size: 30px;
+    position:absolute;
+    margin-left: -5px;
+    font-size: 23px;
+    vertical-align: -0.125em;
 }
-.quotes-7::after{
-    content:"”";
-    color: #9172d1;
-    font-size: 30px;
+.quote-left-7{
+    top:-10px;
+    left:-12px;
 }
-*/
+.quote-right-7{
+    right:-12px;
+    bottom:13px;
+}
 .wrapper-bottom-arrows-7{
-
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: nowrap;
-    align-items: center;  /* is it proper? */
+    align-items: center; 
+    margin-right:3px;
     width:220px;
     height:96px;
-    
 }
 
 .wrapper-bottom-arrows-7 img:first-child{
