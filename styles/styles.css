@@ -16,7 +16,7 @@ body {
 
 .hero-wrapper {
     width: 1440px;
-
+    overflow: hidden;
 }
 
 /* 
@@ -37,6 +37,27 @@ body {
 
 */
 
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 56px 0 56px;
+    align-items: center;
+
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+}
+
+.header button {
+    font-weight: 500;
+}
+
+.header p:hover::after {
+    content: "";
+    display: block;
+    height: 2px;
+    background-color: #FFF;
+    margin-top: 18px; 
+}
 
 /* SECTION 2 (accept new challenges,
    explore, about, down arrow) */
