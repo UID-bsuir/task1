@@ -460,7 +460,7 @@ four course cards, more courses)  */
     flex-wrap: wrap;
 }
 .wrapper-top-text-7{
-    height:196px;
+    height:194px;
     color:#aa84f9;
     font-weight: 400;
     font-size:42px;
@@ -480,11 +480,11 @@ four course cards, more courses)  */
     height:440px;
     width:100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .wrapper-review-7{
-    width:264px;
-    height:425px;
+    width:330px;
+    height:413px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -514,22 +514,26 @@ four course cards, more courses)  */
     height:174px;
     border: #9172d1 3px solid;
     border-radius: 50%;
+    margin-bottom:2px;
 }
 .wrapper-name-7{
     color:#aeaeae;
     font-size:18px;
     font-weight: 700;
-    letter-spacing: 1.7px;
+    letter-spacing: 1px;
     line-height: 27px;
     text-transform: uppercase;
+    padding-bottom:11px;
 }
 .wrapper-stars-7{
     display: flex;
-    justify-content: space-between;
-    width:134px;
+    justify-content: space-around;
+    width:160px;
+    padding-bottom: 4px;
 }
 
 .quotes-7{
+    height:120px;
     width:231px;
     text-align: justify;
     text-align-last: center;
@@ -537,7 +541,8 @@ four course cards, more courses)  */
     font-weight: 600;
     font-size:13px;
     letter-spacing: 0.015em;
-    line-height: 23.55px;
+    line-height: 24px;
+    margin-top:5px;
 }
 /*
 .quotes-7::before{
@@ -557,19 +562,19 @@ four course cards, more courses)  */
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: nowrap;
-    align-items: baseline;  /* is it proper? */
+    align-items: center;  /* is it proper? */
     width:220px;
-    /* and what's with the height? */
+    height:96px;
     
 }
 
 .wrapper-bottom-arrows-7 img:first-child{
     transform: rotate(90deg);   
-    margin-bottom: 68px;
+    
 }
 .wrapper-bottom-arrows-7 img:last-child{
     transform: rotate(-90deg);
-    margin-top: 68px;    
+      
 }
 .wrapper-bottom-arrows-7 img:hover{
     filter:opacity(0.5) drop-shadow(0 0 0 #aa84f9);
