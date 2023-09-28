@@ -454,72 +454,82 @@ four course cards, more courses)  */
 
 /* SECTION 7 (reviews, comments) */
 .section-7-reviews-comments{
-    padding: 0 56px 0 56px;
-    height:750px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+
+    height:750px;
+    padding: 0 56px 0 56px;
 }
 .wrapper-top-text-7{
     height:194px;
-    color:#aa84f9;
+    padding-top: 50px;
+    
     font-weight: 400;
     font-size:42px;
     letter-spacing: 4.2px;
     text-align: center;
     line-height: 52.8px;
-    padding-top: 50px;
+    color:#aa84f9;
 }
 .wrapper-top-text-7 span{
-    text-transform: uppercase;
-    color:#fff;
     font-weight: 700;
     font-size:93px;
     letter-spacing: 3px;
+    text-transform: uppercase;
+    color:#fff;
 }
-.wrapper-allReviews-7{
-    height:440px;
-    width:100%;
+.wrapper-all-reviews-7{
     display: flex;
     justify-content: center;
+
+    width:100%;
+    height:440px;
 }
 .wrapper-review-7{
-    width:400px;
-    height:413px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+
+    width:400px;
+    height:413px;
+    
     text-align: center; 
 }
 
-.wrapper-reviews-imgBlock-7{
+.wrapper-reviews-img-block-7{
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
     overflow: hidden;
+
+    margin-bottom:2px;
     border: #9172d1 3px solid;
     border-radius: 50%;
-    margin-bottom:2px;
 }
 
 .reviews-first-7{
     width:441px;
+
     padding-right:2px;
 }
 .reviews-second-7{
     width:428px;
+
     margin-left:8px;
 }
 .reviews-third-7{
     width:446px;
+
     padding-right:4px;
 }
 
 .reviews-first-7 div:first-child{
     width:174px;
     height:174px;
+
     margin-bottom:3px;
 }
 .reviews-first-7 div:first-child img{
@@ -531,9 +541,10 @@ four course cards, more courses)  */
     margin-left:-5px;
 }
 .reviews-second-7 div:first-child{
-    margin-top: 3px;
     width:168px; 
     height:168px;
+
+    margin-top: 3px;
     margin-bottom: 6px;    
     margin-left:7px;
 }
@@ -542,9 +553,10 @@ four course cards, more courses)  */
     padding-top:20px;
 }
 .reviews-third-7 div:first-child{
-    margin-top:4px;
     width:166px; 
     height:166px;
+
+    margin-top:4px;
     margin-bottom:6px;
 }
 .reviews-third-7 div:nth-child(3){
@@ -555,45 +567,54 @@ four course cards, more courses)  */
     padding-top:14px;
 }
 .wrapper-name-7{
-    color:#aeaeae;
     font-size:18px;
     font-weight: 700;
     letter-spacing: 1px;
     line-height: 27px;
     text-transform: uppercase;
+    color:#aeaeae;
+
     padding-bottom:11px;
 }
 .wrapper-stars-7{
     display: flex;
     justify-content: space-around;
+
     width:160px;
+    
     padding-bottom: 4px;
 }
 
 .quotes-7{
+    position: relative;
+    
     height:120px;
     width:251px;
+
     text-align: justify;
     text-align-last: center;
-    color:#aeaeae;
     font-weight: 600;
     font-size:13px;
     letter-spacing: 0.015em;
     line-height: 24px;
+    color:#aeaeae;
+    
     margin-top:5px;
     margin-bottom:-2px;
-    position: relative;
 }
 .quotes-7 p{
     width:231px;
+
     margin-left: 10px;
 }
 .quote-ico-7{
-    color: #9172d1;
     position:absolute;
-    margin-left: -5px;
+    
     font-size: 23px;
     vertical-align: -0.125em;
+    color: #9172d1;
+    
+    margin-left: -5px;
 }
 .quote-left-7{
     top:-10px;
@@ -609,18 +630,18 @@ four course cards, more courses)  */
     justify-content: space-between;
     flex-wrap: nowrap;
     align-items: center; 
-    margin-right:3px;
+
     width:220px;
     height:96px;
+
+    margin-right:3px;
 }
 
 .wrapper-bottom-arrows-7 img:first-child{
-    transform: rotate(90deg);   
-    
+    transform: rotate(90deg); 
 }
 .wrapper-bottom-arrows-7 img:last-child{
     transform: rotate(-90deg);
-      
 }
 .wrapper-bottom-arrows-7 img:hover{
     filter:opacity(0.5) drop-shadow(0 0 0 #aa84f9);
