@@ -643,3 +643,120 @@ four course cards, more courses)  */
     margin-bottom: 58px;
     margin-left: 12px;
 }
+
+/* SECTION 8 (photo subscribe, form,
+   imputs, button)*/
+
+   .section-8-photo-subscribe {
+    display:flex;
+    justify-content: space-between;
+    height: 1000px;
+    padding: 0 56px 0 56px;
+}   
+
+.wrapper-info-8{
+    margin-top: 74px;
+    padding-right: 100px;
+}
+.wrapper-side-8.aligned-right-8 h2 {
+    font-size:47.15px;
+    font-weight:700;
+    text-transform:uppercase;
+    margin-left: 8px;
+    letter-spacing: 1px;
+}
+
+.wrapper-side-8.aligned-right-8 h3{
+    color: #8a6dc7;
+    letter-spacing: 4.62px;
+    font-size: 46.2px;
+    font-weight: 400;
+    margin-left: -79px;
+    width: 450px;
+    padding-bottom: 10px;
+    
+}
+
+.wrapper-side-8.aligned-right-8 p {
+    font-size: 15.8px;
+    letter-spacing: 0.237px;
+    line-height: 29.63px;
+    font-weight: 600;
+    text-align: center;
+    margin-left: -94px;
+    width: 449px;
+
+}
+
+.wrapper-bottom-8{
+    padding-top: 75px;
+    margin-left: -42px;
+}
+
+.wrapper-bottom-8 p {
+    height: 63px;
+    width: 505px;
+    margin-top:16px;
+    margin-left: -73px;
+    display: flex;
+    border: 4px solid #9172d1;
+    
+}
+
+.wrapper-bottom-8 h3 {
+    height: 63px;
+    width: 505px;
+    margin-top: 57px;
+    margin-left: -73px;
+    display: flex;
+    border: 4px solid #9172d1;
+    
+}
+
+.wrapper-bottom-8 h2 {
+    margin-top: 49px;
+    padding-bottom: 94px;
+    margin-left: -73px;
+    display: flex;
+    border: 4px solid #9172d1;
+    height: 79px;
+    width: 505px;
+    
+}
+
+.wrapper-bottom-8 span{
+    
+    padding-left: 39px;
+    padding-top: 23px;
+    font-size: 16.67px;
+    letter-spacing: 0.18em;
+    font-weight: 700;
+    color: #6a6a6a;
+    text-transform: uppercase;
+}
+
+
+
+.wrapper-bottom-message-8{
+    padding-top: 80px;
+    padding-left: 1px;
+}
+.wrapper-bottom-message-8 button {
+    width: 170px;
+    height: 65px;
+    padding-left: 2px;
+    background-color: #8c6eca;
+    border: 1px solid rgb(84, 63, 11);
+    font-family: 'Oswald', sans-serif;
+    font-size: 14.4px;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+    color: #FFF;
+    text-transform: uppercase;
+    margin-left: 55px;
+}
+
+.wrapper-bottom-message-8 button:hover {
+    color: #b885fd;
+    background-color: #FFF;
+}
