@@ -112,11 +112,6 @@ body {
     padding-top: 54px;
 }
 
-
-.wrapper-aligned-left-1 img{
-    transform: rotate(90deg);
-}
-
 .wrapper-aligned-left-1 h1{
     font-weight: 700;
     font-size: 131.1px;
@@ -129,7 +124,7 @@ body {
 }
     
 .wrapper-aligned-bottom-left-1{
-    margin-left: 85px;
+    margin-left: 87px;
 }
 .wrapper-aligned-bottom-left-1 h2{
     font-size: 43.4px;
@@ -139,7 +134,7 @@ body {
     transform-origin: left;
     transform: rotate(270deg);
     margin-top:55px;
-    margin-left:-62px;
+    margin-left:-60px;
     
 }
     
@@ -285,20 +280,51 @@ body {
     background-color: #FFF;
 }
 
-.wrapper-aligned-right-bottom-1 img{
-    transform: rotate(-90deg);
+
+.wrapper-bottom-arrows-1{
+    display: flex;
+    justify-content: space-around;
 }
+
+.wrapper-bottom-arrow-1.aligned-right-1{
+    width: 100px;
+    height: 60px;
+}
+
+.wrapper-bottom-arrow-1.aligned-left-1{
+    width: 100px;
+    height: 60px;
+}
+
+.wrapper-bottom-arrow-1.aligned-right-1 img{
+    width: 24px;
+    height: 60px;
+    transform: rotate(-90deg);
+    margin-top: -52px;
+    margin-left: 8px;
+}
+
+.wrapper-bottom-arrow-1.aligned-left-1 img{
+    width: 24px;
+    height: 60px;
+    transform: rotate(90deg);
+    margin-left: 69px;
+    margin-top: -45px;
+}
+
+
+
 
 .wrapper-side-bottom-1{
     
     display: flex;
     justify-content: space-between;
-    position:absolute;
+    position: absolute;
     height: 210px;
     width: 1440px;
     border: 16px solid rgb(20,20,20);
     background-color: rgb(24,24,24);
-
+    margin-top: -17px;
 }
 
 
@@ -311,7 +337,7 @@ body {
 
 .wrapper-number-1.aligned-left-1{
     margin-top: -15px;
-    margin-left: -12px;
+    margin-left: -13px;
 }
 
 .wrapper-number-1.aligned-left-1 p{
@@ -332,7 +358,7 @@ body {
     font-size: 22.07px;
     letter-spacing: 2.2px;
     margin-top: -3px;
-    margin-left: 20px;
+    margin-left: 23px;
 }
 
 .wrapper-text-1.aligned-left-1 h2{
@@ -340,7 +366,7 @@ body {
     font-weight: 700;
     font-size: 22.07px;
     letter-spacing: 2.2px;
-    margin-left: 20px;
+    margin-left: 23px;
     margin-top: -1px;
 }
 
@@ -354,7 +380,7 @@ body {
 
 .wrapper-number-1.aligned-center-1{
     margin-top: -15px;
-    margin-left: -64px;
+    margin-left: -63px;
 }
 
 .wrapper-number-1.aligned-center-1 p{
