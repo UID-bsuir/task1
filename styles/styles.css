@@ -345,46 +345,42 @@ four course cards, more courses)  */
 }
 
 /* section 4 (about us, read more, photo) */
-
-.oval-4 {
-    position: absolute;
-    height: 219px;
-    width: 189px;
-}
-
+ 
 .section-4-about-us {
     height: 934px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 204px;
     background: url('../images/section4_circle_oval.png') no-repeat;
     background-size: 189px 219px;
     background-position-x: left;
     align-items: center;
+    padding-left: 21px;
+
 }
 
 .photo-wrapper-4 {
-    width: 487px;
+    width: 529px;
+    height: 759px;
 }
 
 .photo-4 {
     height: 647px;
-    width: 487px;
-    margin-bottom:  0 0 99px -23px;
-    padding-bottom: 9px;
+    width: 483px;
 }
 
-.circe-wrapper-4 {
+.circle-wrapper-4 {
     position: absolute;
-    width: 1054px;
+    width: 1033px;
     display: flex;
     justify-content: flex-end;
     align-self: normal;
-    margin-top: 84px;
+    margin-top: 83px;
 }
 
 .circle-4 {
-    height: 21px;
-    width: 21px;
+    height: 22px;
+    width: 22px;
     border-radius: 50%;
     background-color: #b885fd; 
 }
@@ -393,66 +389,65 @@ four course cards, more courses)  */
     height: 481px;
     display: flex;
     flex-direction: column;
-    margin-left: 73px;
+    margin-left: 72px;
 }
 
-.wrapper-text-block-4 h1 {
+.wrapper-text-block-4 h2 {
     font-size: 60px;
     font-weight: 700;
-    letter-spacing: 3.5px;
+    letter-spacing: 3.4px;
+    margin-bottom: 24px;
 }
 
-.wrapper-text-block-4 h1 span {
+.wrapper-text-block-4 h2 span {
     font-weight: 400;
     color: #b885fd;
-    padding-left: 10px;
-    letter-spacing: 7px;
+    padding-left: 12px;
+    letter-spacing: 7.4px;
 }
 
-.wrapper-text-block-4 p {
+.wrapper-text-block-4 > p {
     font-weight: 700;
     font-size: 14px;
     line-height: 25px;
-    width: 376px;
+    width: 377px;
     margin-top: 24px 1px 0 0;
     text-align: justify;
     word-spacing: 1.25px;
-    letter-spacing: 0.457px;
+    letter-spacing: 0.462px;
 }
 
 .options-table-4 {
-    margin-top: 88px;
-    height: 98px;
-    width: 437px;
-    display: flex; 
-    justify-content: space-between;  
-    text-transform: uppercase;
-}
-.options-table-4 div {
-    height: 77px;
-    margin-top: -8px;
+    width: 431px;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: space-between;
-}
-.options-table-4 div p {
-    width: 158px;
-    margin: -15px 2px 0 0;
-    font-size: 12px;
-    letter-spacing: 0.5px;    
-    word-spacing: 0.5px;
+    align-content: space-around;
+    height: 134px;
+    margin-top: 43px;
 }
 
-.options-table-4 div p i {
-    margin: 0 5px 0 0;
+.options-table-4 div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 7px
+
+}
+
+.options-table-4 div p {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 1.256px;
 }
 
 .wrapper-text-block-4 button {
-    width: 128px;
-    height: 52px;
-    margin-top: 35px -1px 0 0;
+    width: 126px;
+    height: 50px;
+    margin: 45px 0 0 -1px;
     background-color: #b885fd; 
-    border: 1px solid rgb(84, 63, 11);
+    border: none;
     font-family: 'Oswald', sans-serif;
     font-size: 15px;
     font-weight: 700;
