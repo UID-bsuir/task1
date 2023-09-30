@@ -347,9 +347,7 @@ four course cards, more courses)  */
 /* section 4 (about us, read more, photo) */
 
 .oval-4 {
-    /* transform: rotate(-45deg); */
     position: absolute;
-    
     height: 219px;
     width: 189px;
 }
@@ -371,9 +369,8 @@ four course cards, more courses)  */
 .photo-4 {
     height: 647px;
     width: 487px;
-    margin-bottom: 99px;
+    margin-bottom:  0 0 99px -23px;
     padding-bottom: 9px;
-    margin-left: -23px;
 }
 
 .circe-wrapper-4 {
@@ -417,8 +414,7 @@ four course cards, more courses)  */
     font-size: 14px;
     line-height: 25px;
     width: 376px;
-    margin-top: 24px;
-    margin-left: 1px;
+    margin-top: 24px 1px 0 0;
     text-align: justify;
     word-spacing: 1.25px;
     letter-spacing: 0.457px;
@@ -441,24 +437,20 @@ four course cards, more courses)  */
 }
 .options-table-4 div p {
     width: 158px;
-    margin: 0;
-    margin-left: 2px;
-    margin-top: -15px;
+    margin: -15px 2px 0 0;
     font-size: 12px;
     letter-spacing: 0.5px;    
     word-spacing: 0.5px;
 }
 
 .options-table-4 div p i {
-    margin: 0;
-    margin-right: 5px;
+    margin: 0 5px 0 0;
 }
 
 .wrapper-text-block-4 button {
     width: 128px;
     height: 52px;
-    margin-top: 35px;
-    margin-left: -1px;
+    margin-top: 35px -1px 0 0;
     background-color: #b885fd; 
     border: 1px solid rgb(84, 63, 11);
     font-family: 'Oswald', sans-serif;
@@ -473,9 +465,6 @@ four course cards, more courses)  */
     color: #b885fd;
     background-color: #FFF;
 }
-/* .wrappper-text-block div {
-    display: flex;   
-} */
 
 /* SECTION 6 (start now 'video') */
 
