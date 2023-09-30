@@ -654,7 +654,6 @@ four course cards, more courses)  */
     padding: 0 90px 0 56px;
 
     background: url('../images/section8_portrait.png') no-repeat;
-    margin-bottom: 10px;
     background-position-y: -2px;
 }   
 
@@ -663,9 +662,8 @@ four course cards, more courses)  */
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 74px;
-    margin-right: 50px;
-    margin-bottom: 73px;
+
+    margin: 74px 50px 73px 0;
 }
 
 .wrapper-text-8 {
@@ -684,29 +682,32 @@ four course cards, more courses)  */
 }
 
 .wrapper-text-8 h2 span {
+    display: block; 
+   
+    height: 28px;
+    padding-left: 6px;   
+    
     color: #8a6dc7;
     letter-spacing: 4.62px;
     font-size: 46.2px;
     font-weight: 400;
-    width: 450px;
-    height: 28px;
     line-height: 56px;
-    padding-left: 6px;   
+    
     text-transform: none;
-    display: block; 
 }
 
 .wrapper-text-8 p {
+    padding: 40px 1px 0 0;
+    margin-bottom: 91px;
+
+    width: 465px;
+
     font-size: 15.8px;
     letter-spacing: 0.65px;
     line-height: 29.63px;
     font-weight: 600;
     text-align: center;
-    width: 465px;
     text-align-last: center;
-    padding-top: 40px;
-    padding-right: 1px;
-    margin-bottom: 91px;
 }
 
 .wrapper-bottom-8 {
@@ -719,14 +720,15 @@ four course cards, more courses)  */
 
 .wrapper-bottom-8 textarea {
     box-sizing: border-box;
+    vertical-align: top;
+
     border: 3px solid #9172d1;
     width: 513px;
     height: 71px;
     background: transparent;
-    vertical-align: top;
-    line-height: normal;
     resize: none;
 
+    line-height: normal;
     font-size: 17px;
     letter-spacing: 3.5px;
     font-weight: 700;
@@ -736,8 +738,7 @@ four course cards, more courses)  */
 }
 
 .wrapper-bottom-8 textarea::placeholder {
-    padding-left: 39px;
-    padding-top: 22px;
+    padding: 22px 0 0 39px;
     font-size: 17px;
     letter-spacing: 3.5px;
     font-weight: 700;
@@ -750,36 +751,31 @@ four course cards, more courses)  */
 .wrapper-bottom-8 textarea:first-child {
     margin-bottom: 10px;
     padding-top: 3px;
-
 }
 
 .wrapper-bottom-8 textarea:last-child {
     height: 181px;
     padding-top: 4px;
 }
- 
 
-.wrapper-bottom-message-8{
-    padding-top: 80px;
-    padding-left: 1px;
-}
-.wrapper-bottom-message-8 button {
+.wrapper-info-8 button {
     width: 169px;
     height: 64px;
-    padding-left: 2px;
+    padding-left: 3px;
+    margin: 83px 0 0 -1px;
+
     background-color: #8c6eca;
     border: none;
+
     font-family: 'Oswald', sans-serif;
     font-size: 14.4px;
     font-weight: 700;
     letter-spacing: 0.6px;
     color: #FFF;
     text-transform: uppercase;
-    margin-left: -1px;
-    margin-top: 3px;
 }
 
-.wrapper-bottom-message-8 button:hover {
+.wrapper-info-8 button:hover {
     color: #b885fd;
     background-color: #FFF;
 }
