@@ -647,105 +647,124 @@ four course cards, more courses)  */
 /* SECTION 8 (photo subscribe, form,
    imputs, button)*/
 
-   .section-8-photo-subscribe {
+.section-8-photo-subscribe {
     display:flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     height: 1000px;
-    padding: 0 56px 0 56px;
+    padding: 0 90px 0 56px;
+
+    background: url('../images/section8_portrait.png') no-repeat;
+    margin-bottom: 10px;
+    background-position-y: -2px;
 }   
 
 .wrapper-info-8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     margin-top: 74px;
-    padding-right: 100px;
-}
-.wrapper-side-8.aligned-right-8 h2 {
-    font-size:47.15px;
-    font-weight:700;
-    text-transform:uppercase;
-    margin-left: 8px;
+    margin-right: 50px;
+    margin-bottom: 67px;
 }
 
-.wrapper-side-8.aligned-right-8 h3{
+.wrapper-text-8 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper-text-8 h2 {
+    font-size: 47.15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+
+.wrapper-text-8 h3 {
     color: #8a6dc7;
     letter-spacing: 4.62px;
     font-size: 46.2px;
     font-weight: 400;
-    margin-left: -79px;
     width: 450px;
-    padding-bottom: 10px;
-    
+    line-height: 56px;
+    padding-left: 10px;    
 }
 
-.wrapper-side-8.aligned-right-8 p {
+.wrapper-text-8 p {
     font-size: 15.8px;
-    letter-spacing: 0.237px;
+    letter-spacing: 0.65px;
     line-height: 29.63px;
     font-weight: 600;
     text-align: center;
-    margin-left: -94px;
-    width: 449px;
-
+    width: 465px;
+    text-align-last: center;
+    padding-top: 12px;
+    padding-right: 1px;
+    margin-bottom: 91px;
 }
 
-.wrapper-bottom-8{
-    padding-top: 75px;
-    margin-left: -42px;
-}
-
-.wrapper-bottom-8 p {
-    height: 63px;
-    width: 505px;
-    margin-top:16px;
-    margin-left: -73px;
+.wrapper-bottom-8 {
     display: flex;
-    border: 4px solid #9172d1;
-    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 47px;
 }
 
-.wrapper-bottom-8 h3 {
-    height: 63px;
-    width: 505px;
-    margin-top: 57px;
-    margin-left: -73px;
-    display: flex;
-    border: 4px solid #9172d1;
-    
-}
+.wrapper-bottom-8 textarea {
+    box-sizing: border-box;
+    border: 3px solid #9172d1;
+    width: 513px;
+    height: 71px;
+    background: transparent;
+    vertical-align: top;
+    line-height: normal;
+    resize: none;
 
-.wrapper-bottom-8 h2 {
-    margin-top: 49px;
-    padding-bottom: 94px;
-    margin-left: -73px;
-    display: flex;
-    border: 4px solid #9172d1;
-    height: 79px;
-    width: 505px;
-    
-}
-
-.wrapper-bottom-8 span{
-    
-    padding-left: 39px;
-    padding-top: 23px;
-    font-size: 16.67px;
-    letter-spacing: 0.18em;
+    font-size: 17px;
+    letter-spacing: 3.5px;
     font-weight: 700;
     color: #6a6a6a;
     text-transform: uppercase;
+    font-family: 'Krub', sans-serif;
 }
 
+.wrapper-bottom-8 textarea::placeholder {
+    padding-left: 39px;
+    padding-top: 22px;
+    font-size: 17px;
+    letter-spacing: 3.5px;
+    font-weight: 700;
+    color: #6a6a6a;
+    text-transform: uppercase;
+    font-family: 'Krub', sans-serif;
+    
+}
 
+.wrapper-bottom-8 textarea:first-child {
+    margin-bottom: 10px;
+    padding-top: 3px;
+
+}
+
+.wrapper-bottom-8 textarea:last-child {
+    height: 181px;
+    padding-top: 4px;
+}
+ 
 
 .wrapper-bottom-message-8{
     padding-top: 80px;
     padding-left: 1px;
 }
 .wrapper-bottom-message-8 button {
-    width: 170px;
-    height: 65px;
+    width: 169px;
+    height: 64px;
     padding-left: 2px;
     background-color: #8c6eca;
-    border: 1px solid rgb(101, 81, 143);
+    border: none;
     font-family: 'Oswald', sans-serif;
     font-size: 14.4px;
     font-weight: 700;
@@ -753,6 +772,7 @@ four course cards, more courses)  */
     color: #FFF;
     text-transform: uppercase;
     margin-left: 55px;
+    margin-top: 3px;
 }
 
 .wrapper-bottom-message-8 button:hover {
