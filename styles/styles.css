@@ -347,16 +347,17 @@ four course cards, more courses)  */
 /* section 4 (about us, read more, photo) */
  
 .section-4-about-us {
-    height: 934px;
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 204px;
+    
+    padding-left: 21px;
+    height: 934px;
+
     background: url('../images/section4_circle_oval.png') no-repeat;
     background-size: 189px 219px;
     background-position-x: left;
-    align-items: center;
-    padding-left: 21px;
-
 }
 
 .photo-wrapper-4 {
@@ -370,59 +371,67 @@ four course cards, more courses)  */
 }
 
 .circle-wrapper-4 {
-    position: absolute;
-    width: 1033px;
     display: flex;
     justify-content: flex-end;
-    align-self: normal;
+    
+    width: 1033px;
     margin-top: 83px;
+
+    position: absolute;
+    align-self: normal;
 }
 
 .circle-4 {
     height: 22px;
     width: 22px;
     border-radius: 50%;
+
     background-color: #b885fd; 
 }
 
 .wrapper-text-block-4 {
-    height: 481px;
     display: flex;
     flex-direction: column;
+
     margin-left: 72px;
+    height: 481px;
 }
 
 .wrapper-text-block-4 h2 {
+    margin-bottom: 24px;
+
     font-size: 60px;
     font-weight: 700;
     letter-spacing: 3.4px;
-    margin-bottom: 24px;
 }
 
 .wrapper-text-block-4 h2 span {
+    padding-left: 12px;
+
     font-weight: 400;
     color: #b885fd;
-    padding-left: 12px;
     letter-spacing: 7.4px;
 }
 
 .wrapper-text-block-4 > p {
+    margin-top: 24px 1px 0 0;
+    width: 377px;
+   
     font-weight: 700;
     font-size: 14px;
     line-height: 25px;
-    width: 377px;
-    margin-top: 24px 1px 0 0;
     text-align: justify;
     word-spacing: 1.25px;
     letter-spacing: 0.462px;
 }
 
 .options-table-4 {
-    width: 431px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: space-around;
+    
+    width: 431px;
     height: 134px;
     margin-top: 43px;
 }
@@ -431,8 +440,7 @@ four course cards, more courses)  */
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap: 7px
-
+    gap: 7px;
 }
 
 .options-table-4 div p {
@@ -446,14 +454,16 @@ four course cards, more courses)  */
     width: 126px;
     height: 50px;
     margin: 45px 0 0 -1px;
-    background-color: #b885fd; 
-    border: none;
+
     font-family: 'Oswald', sans-serif;
     font-size: 15px;
     font-weight: 700;
     letter-spacing: 0.6px;
     color: #FFF;
     text-transform: uppercase;
+
+    background-color: #b885fd; 
+    border: none;
 }
 
 .wrapper-text-block-4 button:hover {
