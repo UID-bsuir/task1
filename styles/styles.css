@@ -658,14 +658,14 @@ four course cards, more courses)  */
     background-position-y: -2px;
 }   
 
-.wrapper-info-8{
+.wrapper-info-8 {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     margin-top: 74px;
     margin-right: 50px;
-    margin-bottom: 67px;
+    margin-bottom: 73px;
 }
 
 .wrapper-text-8 {
@@ -680,16 +680,20 @@ four course cards, more courses)  */
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1.2px;
+    text-align: center;
 }
 
-.wrapper-text-8 h3 {
+.wrapper-text-8 h2 span {
     color: #8a6dc7;
     letter-spacing: 4.62px;
     font-size: 46.2px;
     font-weight: 400;
     width: 450px;
+    height: 28px;
     line-height: 56px;
-    padding-left: 10px;    
+    padding-left: 6px;   
+    text-transform: none;
+    display: block; 
 }
 
 .wrapper-text-8 p {
@@ -700,7 +704,7 @@ four course cards, more courses)  */
     text-align: center;
     width: 465px;
     text-align-last: center;
-    padding-top: 12px;
+    padding-top: 40px;
     padding-right: 1px;
     margin-bottom: 91px;
 }
@@ -771,7 +775,7 @@ four course cards, more courses)  */
     letter-spacing: 0.6px;
     color: #FFF;
     text-transform: uppercase;
-    margin-left: 55px;
+    margin-left: -1px;
     margin-top: 3px;
 }
 
