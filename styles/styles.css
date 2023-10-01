@@ -368,6 +368,26 @@ four course cards, more courses)  */
 .photo-4 {
     height: 647px;
     width: 483px;
+    position: absolute;
+    z-index: 100;
+}
+
+.photo-circle-wrapper-4 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo-circle-wrapper-4 div {
+    position: absolute;
+    height:  395px;
+    width: 395px;
+    border-radius: 50%;
+    background-color: #b885fd;
+    z-index: 0;
+    margin: 0 46px 91px 0;
 }
 
 .circle-wrapper-4 {
