@@ -802,7 +802,6 @@ four course cards, more courses)  */
 
     height: 741px;
     padding: 0 58px 0 58px;
-    margin-top: 30px;
 
     background-color: #976ECE;
 }
@@ -863,7 +862,7 @@ four course cards, more courses)  */
     letter-spacing: 0.7px;
 }
 
-.wrapper-second-line-3 {
+.wrapper-second-line-f {
     display: flex;
     justify-content: flex-end;
     gap: 17px;
@@ -872,7 +871,7 @@ four course cards, more courses)  */
     margin-top: 10px;
 }
 
-.wrapper-second-line-3 hr {
+.wrapper-second-line-f hr {
     width: 45px;
     height: 2px;
     border: none;
@@ -881,7 +880,7 @@ four course cards, more courses)  */
     margin-top: 32px
 }
 
-.wrapper-input {
+.wrapper-input-f {
     box-sizing: border-box;
     border: #FFF 3px solid;
     height: 66px;
