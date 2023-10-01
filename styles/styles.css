@@ -792,6 +792,142 @@ four course cards, more courses)  */
     margin-left: 12px;
 }
 
+/* SECTION 8 (photo subscribe, form,
+   imputs, button)*/
+
+.section-8-photo-subscribe {
+    display:flex;
+    justify-content: flex-end;
+    height: 1000px;
+    padding: 0 90px 0 56px;
+
+    background: url('../images/section8_portrait.png') no-repeat;
+    background-position-y: -2px;
+}   
+
+.wrapper-info-8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin: 74px 50px 73px 0;
+}
+
+.wrapper-text-8 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper-text-8 h2 {
+    font-size: 47.15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    text-align: center;
+}
+
+.wrapper-text-8 h2 span {
+    display: block; 
+   
+    height: 28px;
+    padding-left: 6px;   
+    
+    color: #8a6dc7;
+    letter-spacing: 4.62px;
+    font-size: 46.2px;
+    font-weight: 400;
+    line-height: 56px;
+    
+    text-transform: none;
+}
+
+.wrapper-text-8 p {
+    padding: 40px 1px 0 0;
+    margin-bottom: 91px;
+
+    width: 465px;
+
+    font-size: 15.8px;
+    letter-spacing: 0.65px;
+    line-height: 29.63px;
+    font-weight: 600;
+    text-align: center;
+    text-align-last: center;
+}
+
+.wrapper-bottom-8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 47px;
+}
+
+.wrapper-bottom-8 textarea {
+    box-sizing: border-box;
+    vertical-align: top;
+
+    border: 3px solid #9172d1;
+    width: 513px;
+    height: 71px;
+    background: transparent;
+    resize: none;
+
+    line-height: normal;
+    font-size: 17px;
+    letter-spacing: 3.5px;
+    font-weight: 700;
+    color: #6a6a6a;
+    text-transform: uppercase;
+    font-family: 'Krub', sans-serif;
+}
+
+.wrapper-bottom-8 textarea::placeholder {
+    padding: 22px 0 0 39px;
+    font-size: 17px;
+    letter-spacing: 3.5px;
+    font-weight: 700;
+    color: #6a6a6a;
+    text-transform: uppercase;
+    font-family: 'Krub', sans-serif;
+    
+}
+
+.wrapper-bottom-8 textarea:first-child {
+    margin-bottom: 10px;
+    padding-top: 3px;
+}
+
+.wrapper-bottom-8 textarea:last-child {
+    height: 181px;
+    padding-top: 4px;
+}
+
+.wrapper-info-8 button {
+    width: 169px;
+    height: 64px;
+    padding-left: 3px;
+    margin: 83px 0 0 -1px;
+
+    background-color: #8c6eca;
+    border: none;
+
+    font-family: 'Oswald', sans-serif;
+    font-size: 14.4px;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+.wrapper-info-8 button:hover {
+    color: #b885fd;
+    background-color: #FFF;
+}
+
 /* FOOTER */
 
 .footer { 
@@ -918,3 +1054,4 @@ four course cards, more courses)  */
 
     margin-right: -22px;
 }
+
