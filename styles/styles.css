@@ -548,14 +548,34 @@ four course cards, more courses)  */
     color: #b885fd;
     background-color: #FFF;
 }
+
 /* SECTION 5 (y us, read море)*/
 
 .section-5-why-us-more{
+    height: 1000px;      /* i guess, this will be modified */
+
+    padding: 0 56px 0 56px;
+    
+    background: url('../images/section5_circle_oval.png') no-repeat;
+    background-size: 198px 260px;
+    background-position-x: right;
+    background-position-y:8px ;
+}
+
+.wrapper-oval-and-circle-at-top-5{
+    display: flex;
+    justify-content: center;
+    
+    height:346px;
+}
+
+.circle-at-top-5{
+    width:246px;
+}
+
+.main-content-5{
     display: flex;
     justify-content: space-between;
-    
-    height: 700px;      /* i guess, this will be modified */
-    padding: 0 56px 0 56px;
 }
 
 .wrapper-side-left-dude-in-circle-5 {
@@ -596,7 +616,7 @@ four course cards, more courses)  */
 }
 
 .wrapper-side-right-main-text-5 p:first-child {
-    margin: 58px 0 51px 0;
+    margin: 61px 0 48px 0;
 }
 
 .wrapper-side-right-main-text-5 p {
@@ -679,11 +699,16 @@ four course cards, more courses)  */
 .circle-small-5 {
     width: 22px;
     height: 22px;
-    margin-right: 132px;
 
     background-color: #aa84f9;
     border-radius: 50%;
 }
+
+/* the large margin that needs to be modified */
+.problem-bottom-5{
+    margin-right: 132px;
+}
+
 
 /* SECTION 6 (start now 'video') */
 
