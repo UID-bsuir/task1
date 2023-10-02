@@ -99,11 +99,10 @@ body {
 
 .section-2-new-challenges {
     display: flex;
-    justify-content: flex-end;
     flex-direction: column;
 
     padding: 0 56px 0 56px;
-    height: 860px;
+    height: 743px;
 }
 
 .wrapper-top-2 {
@@ -726,10 +725,11 @@ four course cards, more courses)  */
 .section-6-video-start-now {
     display: flex;
     justify-content: space-between;
-    margin-top: 100px;
+    align-items: flex-end;
 
     padding: 0 56px 0 56px;
-    height: 800px;
+    margin-bottom: 70px;
+    height: 806px;
 }
 
 .wrapper-central-video-6 {
@@ -789,10 +789,13 @@ four course cards, more courses)  */
     height: 606px;
 }
 
-.wrapper-side-6.aligned-left-6 {
-    padding-top: 62px ;
+.wrapper-side-6.aligned-left-6 div {
+    padding-right: 65px ;
 }
  
+.wrapper-side-6.aligned-left-6 p {
+    width: 140px ;
+}
 .wrapper-side-6 p {
     width: 200px;
     padding: 0 45px 0 49px;
@@ -830,16 +833,20 @@ four course cards, more courses)  */
 
 /* SECTION 7 (reviews, comments) */
 
-.section-7-reviews-comments{
+.section-7-reviews-comments {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-
-    height: 750px;
+    align-items: center;
+    height: 858px;
     padding: 0 56px 0 56px;
 }
 
-.wrapper-top-text-7{
+.section-7-reviews-comments > div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.wrapper-top-text-7 {
     height: 194px;
     padding-top: 50px;
     
@@ -851,7 +858,7 @@ four course cards, more courses)  */
     color: #aa84f9;
 }
 
-.wrapper-top-text-7 span{
+.wrapper-top-text-7 span {
     font-weight: 700;
     font-size: 93px;
     letter-spacing: 3px;
@@ -859,7 +866,7 @@ four course cards, more courses)  */
     color: #fff;
 }
 
-.wrapper-all-reviews-7{
+.wrapper-all-reviews-7 {
     display: flex;
     justify-content: space-around;
 
@@ -867,7 +874,7 @@ four course cards, more courses)  */
     height: 440px;
 }
 
-.wrapper-review-7{
+.wrapper-review-7 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -879,7 +886,7 @@ four course cards, more courses)  */
     text-align: center; 
 }
 
-.wrapper-reviews-img-block-7{
+.wrapper-reviews-img-block-7 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -894,7 +901,7 @@ four course cards, more courses)  */
     border-radius: 50%;
 }
 
-.wrapper-name-7{
+.wrapper-name-7 {
     font-size: 18px;
     font-weight: 700;
     letter-spacing: 1px;
@@ -905,7 +912,7 @@ four course cards, more courses)  */
     padding-bottom: 11px;
 }
 
-.wrapper-stars-7{
+.wrapper-stars-7 {
     display: flex;
     justify-content: space-around;
 
@@ -914,7 +921,7 @@ four course cards, more courses)  */
     padding-bottom: 4px;
 }
 
-.quotes-7{
+.quotes-7 {
     position: relative;
     
     height: 120px;
@@ -932,13 +939,13 @@ four course cards, more courses)  */
     margin-bottom: -2px;
 }
 
-.quotes-7 p{
+.quotes-7 p {
     width: 231px;
 
     margin-left: 10px;
 }
 
-.quote-ico-7{
+.quote-ico-7 {
     position:absolute;
     
     font-size: 23px;
@@ -948,17 +955,17 @@ four course cards, more courses)  */
     margin-left: -5px;
 }
 
-.quote-left-7{
+.quote-left-7 {
     top: -10px;
     left: -12px;
 }
 
-.quote-right-7{
+.quote-right-7 {
     right: -12px;
     bottom: 13px;
 }
 
-.wrapper-bottom-arrows-7{
+.wrapper-bottom-arrows-7 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -971,15 +978,15 @@ four course cards, more courses)  */
     margin-right: 3px;
 }
 
-.wrapper-bottom-arrows-7 img:first-child{
+.wrapper-bottom-arrows-7 img:first-child {
     transform: rotate(90deg); 
 }
 
-.wrapper-bottom-arrows-7 img:last-child{
+.wrapper-bottom-arrows-7 img:last-child {
     transform: rotate(-90deg);
 }
 
-.wrapper-bottom-arrows-7 img:hover{
+.wrapper-bottom-arrows-7 img:hover {
     filter: opacity(0.3) drop-shadow(0 0 0 #aa84f9);
 }
 
@@ -989,8 +996,10 @@ four course cards, more courses)  */
 .section-8-photo-subscribe {
     display:flex;
     justify-content: flex-end;
+
     height: 1000px;
     padding: 0 90px 0 56px;
+    margin-top: 56px;
 
     background: url('../images/section8_portrait.png') no-repeat;
     background-position-y: -2px;
