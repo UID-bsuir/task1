@@ -725,10 +725,10 @@ four course cards, more courses)  */
 .section-6-video-start-now {
     display: flex;
     justify-content: space-between;
-    margin-top: 100px;
+    align-items: center;
 
     padding: 0 56px 0 56px;
-    height: 800px;
+    height: 1002px;
 }
 
 .wrapper-central-video-6 {
@@ -788,10 +788,13 @@ four course cards, more courses)  */
     height: 606px;
 }
 
-.wrapper-side-6.aligned-left-6 {
-    padding-top: 62px ;
+.wrapper-side-6.aligned-left-6 div {
+    padding-right: 65px ;
 }
  
+.wrapper-side-6.aligned-left-6 p {
+    width: 140px ;
+}
 .wrapper-side-6 p {
     width: 200px;
     padding: 0 45px 0 49px;
