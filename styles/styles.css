@@ -16,6 +16,7 @@ body {
 
 .hero-wrapper {
     width: 1440px;
+    overflow-x: hidden;
 
 }
 
@@ -37,6 +38,61 @@ body {
 
 */
 
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 58px 58px 0 56px;
+    align-items: center;
+
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+}
+
+.header button {
+    width: 98px;
+    height: 33px;
+    margin: -6px 0 0 25px;
+
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 0.55px;
+    text-align: center;
+}
+
+.header p {
+    height: 39px
+}
+
+.header p:hover {
+    border-bottom: #FFFF 2px solid;
+    box-sizing: border-box;
+}
+
+.wrapper-menu-items {
+    display: flex;
+    gap: 128px;
+    padding-top: 15px;
+}
+
+.header img:first-child {
+    margin-top: -6px;
+}
+
+.header img:last-child {
+    padding-top: 13px;
+    width: 52px;
+    height: 26px;
+}
+
+.wrapper-menu-parts {
+    display: flex;
+    gap: 74px;
+    justify-content: flex-start;
+}
 
 /* SECTION 2 (accept new challenges,
    explore, about, down arrow) */
@@ -125,7 +181,7 @@ body {
 }
 
 .wrapper-bottom-2 p {
-    font-weight: bold;
+    font-weight: 700;
     color: #252525;
     font-size: 52px;
     letter-spacing: 1.5px;
@@ -239,7 +295,7 @@ four course cards, more courses)  */
     width: 45px;
     height: 44px;
 
-    margin-left: -3px;
+    margin-left: -2px;
 
     background-color: white;
 
@@ -260,15 +316,16 @@ four course cards, more courses)  */
 }
 
 .wrapper-card-3 div p {
-    width: 230px;
+    width: 209px;
 
     margin-bottom: 31px;
 
     font-size: 10.26pt;
     font-weight: 600;
-    text-align: center;
-    line-height: 27px;
+    text-align: justify;
+    line-height: 26.5px;
     letter-spacing: 1px;
+    text-align-last: center;
 }
 
  
@@ -292,7 +349,7 @@ four course cards, more courses)  */
 
     background-color: #b885fc;
     border-radius: 10%;
-    margin-bottom: 15px;
+    margin-bottom: 17px;
     border: black 1px solid;
 }
 
@@ -344,6 +401,315 @@ four course cards, more courses)  */
     transform: rotate(-90deg);
 }
 
+
+/* section 4 (about us, read more, photo) */
+ 
+.section-4-about-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 204px;
+    
+    padding-left: 21px;
+    height: 934px;
+
+    background: url('../images/section4_circle_oval.png') no-repeat;
+    background-size: 189px 219px;
+    background-position-x: left;
+}
+
+.photo-wrapper-4 {
+    width: 529px;
+    height: 759px;
+}
+
+.photo-4 {
+    height: 647px;
+    width: 483px;
+    position: absolute;
+    z-index: 100;
+}
+
+.photo-circle-wrapper-4 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo-circle-wrapper-4 div {
+    position: absolute;
+    height:  395px;
+    width: 395px;
+    border-radius: 50%;
+    background-color: #b885fd;
+    z-index: 0;
+    margin: 0 46px 90px 0;
+}
+
+.circle-wrapper-4 {
+    display: flex;
+    justify-content: flex-end;
+    
+    width: 1033px;
+    margin-top: 83px;
+
+    position: absolute;
+    align-self: normal;
+}
+
+.circle-4 {
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+
+    background-color: #b885fd; 
+}
+
+.wrapper-text-block-4 {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 72px;
+    height: 481px;
+}
+
+.wrapper-text-block-4 h2 {
+    margin-bottom: 24px;
+
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 3.4px;
+}
+
+.wrapper-text-block-4 h2 span {
+    padding-left: 12px;
+
+    font-weight: 400;
+    color: #b885fd;
+    letter-spacing: 7.4px;
+}
+
+.wrapper-text-block-4 > p {
+    margin-top: 24px 1px 0 0;
+    width: 377px;
+   
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: justify;
+    word-spacing: 1.25px;
+    letter-spacing: 0.462px;
+}
+
+.options-table-4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+    
+    width: 431px;
+    height: 134px;
+    margin-top: 43px;
+}
+
+.options-table-4 div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 7px;
+}
+
+.options-table-4 div p {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 1.256px;
+}
+
+.wrapper-text-block-4 button {
+    width: 126px;
+    height: 50px;
+    margin: 45px 0 0 -1px;
+
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+    color: #FFF;
+    text-transform: uppercase;
+
+    background-color: #b885fd; 
+    border: none;
+}
+
+.wrapper-text-block-4 button:hover {
+    color: #b885fd;
+    background-color: #FFF;
+}
+
+/* SECTION 5 (y us, read море)*/
+
+.section-5-why-us-more{
+    height: 1000px;      /* i guess, this will be modified */
+
+    padding: 0 56px 0 56px;
+    
+    background: url('../images/section5_circle_oval.png') no-repeat;
+    background-size: 198px 260px;
+    background-position-x: right;
+    background-position-y:8px ;
+}
+
+.wrapper-oval-and-circle-at-top-5{
+    display: flex;
+    justify-content: center;
+    
+    height:346px;
+}
+
+.circle-at-top-5{
+    width:246px;
+}
+
+.main-content-5{
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper-side-left-dude-in-circle-5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+
+    width: 664px;
+    height: 642px;
+
+    background: url('../images/section5_oval_transformed.png') no-repeat;
+    background-size: 100%;
+    background-position-y: 31px;
+}
+
+.wrapper-side-left-dude-in-circle-5 img {
+    margin-left: 76px;
+    position: absolute;
+}
+
+.wrapper-side-right-texter-5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+
+    margin: 72px -56px 0 0;
+    width: 560px;
+    height: 579px;
+}
+
+.wrapper-text-no-circle-5 {
+    display: flex;
+}
+
+.wrapper-side-right-main-text-5 {
+    width: 500px;
+}
+
+.wrapper-side-right-main-text-5 p:first-child {
+    margin: 61px 0 48px 0;
+}
+
+.wrapper-side-right-main-text-5 p {
+    width: 376px;
+    margin-bottom: 39px;
+    
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 24.8px;
+}
+
+.wrapper-side-right-main-text-5 p:first-child {
+    font-weight: 700;
+    font-size: 60px;
+    letter-spacing: 4px;
+}
+
+.wrapper-side-right-main-text-5 span {
+    padding-left: 10px;
+    color: #aa84f9;
+    letter-spacing: 8px;
+    font-size: 58px;
+    font-weight: 400;
+}
+
+.wrapper-side-right-main-text-5 button {
+    width: 126px;
+    height: 50px;
+    
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    color: #ffffff;
+    font-weight: 600;
+   
+    border: none;
+    background-color: #aa84f9;
+}
+
+.wrapper-side-right-main-text-5 button:hover {
+    background-color: #333;
+}
+
+.wrapper-side-right-text-5 {
+    display: flex;
+    align-content: flex-end;
+    justify-content: center;
+    flex-wrap: wrap;
+ 
+    width: 59px;
+}
+
+.wrapper-side-right-text-5 p {
+    position: relative;
+    left: 10px;
+
+    transform: rotate(-90deg);
+    width: 273px;
+
+    font-size: 103px;
+    font-weight: 700;
+    letter-spacing: 6.2px;
+    line-height: 120px;
+    color:#252525; 
+    text-transform: uppercase;
+    text-align: justify;
+}
+
+.circle-5 {
+    margin-top: 72px;
+    width: 395px;
+    height: 395px;
+
+    background-color: #aa84f9;
+    border-radius: 50%;
+}
+
+.circle-small-5 {
+    width: 22px;
+    height: 22px;
+
+    background-color: #aa84f9;
+    border-radius: 50%;
+}
+
+/* the large margin that needs to be modified */
+.problem-bottom-5{
+    margin-right: 132px;
+}
+
+
 /* SECTION 6 (start now 'video') */
 
 .section-6-video-start-now {
@@ -353,7 +719,6 @@ four course cards, more courses)  */
 
     padding: 0 56px 0 56px;
     height: 800px;
-
 }
 
 .wrapper-central-video-6 {
@@ -606,3 +971,267 @@ four course cards, more courses)  */
 .wrapper-bottom-arrows-7 img:hover{
     filter: opacity(0.3) drop-shadow(0 0 0 #aa84f9);
 }
+
+/* SECTION 8 (photo subscribe, form,
+   imputs, button)*/
+
+.section-8-photo-subscribe {
+    display:flex;
+    justify-content: flex-end;
+    height: 1000px;
+    padding: 0 90px 0 56px;
+
+    background: url('../images/section8_portrait.png') no-repeat;
+    background-position-y: -2px;
+}   
+
+.wrapper-info-8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin: 74px 50px 73px 0;
+}
+
+.wrapper-text-8 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper-text-8 h2 {
+    font-size: 47.15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    text-align: center;
+}
+
+.wrapper-text-8 h2 span {
+    display: block; 
+   
+    height: 28px;
+    padding-left: 6px;   
+    
+    color: #8a6dc7;
+    letter-spacing: 4.62px;
+    font-size: 46.2px;
+    font-weight: 400;
+    line-height: 56px;
+    
+    text-transform: none;
+}
+
+.wrapper-text-8 p {
+    padding: 40px 1px 0 0;
+    margin-bottom: 91px;
+
+    width: 465px;
+
+    font-size: 15.8px;
+    letter-spacing: 0.65px;
+    line-height: 29.63px;
+    font-weight: 600;
+    text-align: center;
+    text-align-last: center;
+}
+
+.wrapper-bottom-8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 47px;
+}
+
+.wrapper-bottom-8 textarea {
+    box-sizing: border-box;
+    vertical-align: top;
+
+    border: 3px solid #9172d1;
+    width: 513px;
+    height: 71px;
+    background: transparent;
+    resize: none;
+
+    line-height: normal;
+    font-size: 17px;
+    letter-spacing: 3.5px;
+    font-weight: 700;
+    color: #6a6a6a;
+    text-transform: uppercase;
+    font-family: 'Krub', sans-serif;
+}
+
+.wrapper-bottom-8 textarea::placeholder {
+    padding: 22px 0 0 39px;
+    font-size: 17px;
+    letter-spacing: 3.5px;
+    font-weight: 700;
+    color: #6a6a6a;
+    text-transform: uppercase;
+    font-family: 'Krub', sans-serif;
+    
+}
+
+.wrapper-bottom-8 textarea:first-child {
+    margin-bottom: 10px;
+    padding-top: 3px;
+}
+
+.wrapper-bottom-8 textarea:last-child {
+    height: 181px;
+    padding-top: 4px;
+}
+
+.wrapper-info-8 button {
+    width: 169px;
+    height: 64px;
+    padding-left: 3px;
+    margin: 83px 0 0 -1px;
+
+    background-color: #8c6eca;
+    border: none;
+
+    font-family: 'Oswald', sans-serif;
+    font-size: 14.4px;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+.wrapper-info-8 button:hover {
+    color: #b885fd;
+    background-color: #FFF;
+}
+
+/* FOOTER */
+
+.footer { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+
+    height: 741px;
+    padding: 0 58px 0 58px;
+    margin-top: 30px;
+
+    background-color: #976ECE;
+}
+
+.footer > div {
+    display: flex;
+    justify-content: space-between;
+
+    padding-top: 79px;
+}
+
+.wrapper-lists-f {
+    display: flex;
+    justify-content: space-between;
+
+    width: 555px;
+}
+
+.wrapper-lists-f div:first-child hr {
+    width: 116px
+}
+
+.wrapper-lists-f div:last-child h3 {
+    letter-spacing: 3.9px;
+}
+
+.wrapper-list-f h3 {
+    font-size: 32px;
+    letter-spacing: 4.86px;
+}
+
+.wrapper-list-f hr {
+    width: 213px;
+    border: none;
+    height: 2px;
+    margin: 6px 0 29px 0;
+
+    background-color: #FFF;
+}
+
+.wrapper-list-f p {
+    margin-bottom: 12.9px;
+    font-size: 24px;
+    letter-spacing: 0.59px;
+}
+
+.wrapper-sign-up-f {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.wrapper-sign-up-f p {
+    font-size: 32px;
+    text-align: right;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0.7px;
+}
+
+.wrapper-second-line-3 {
+    display: flex;
+    justify-content: flex-end;
+    gap: 17px;
+    
+    padding-right: 1px;
+    margin-top: 10px;
+}
+
+.wrapper-second-line-3 hr {
+    width: 45px;
+    height: 2px;
+    border: none;
+    background-color: white;
+    padding-left: 3px;
+    margin-top: 32px
+}
+
+.wrapper-input {
+    box-sizing: border-box;
+    border: #FFF 3px solid;
+    height: 66px;
+    width: 500px;
+
+    margin: 54px 0 57px 0;
+}
+
+.wrapper-brands-f i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 65px;
+    height: 65px;
+    border-radius: 100px;
+
+    background-color: white;
+}   
+
+.wrapper-brands-f {
+    display: flex;
+    align-items: center;
+    gap: 67.5px;
+ 
+    padding-right: 2px;
+}
+
+.wrapper-brands-f p {
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    padding-bottom: 4px;
+
+    margin-right: -22px;
+}
+
