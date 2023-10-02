@@ -206,7 +206,7 @@ body {
 four course cards, more courses)  */
 
 .section-3-courses {
-    height: 835px;
+    height: 769px;
     padding: 0 56px 0 56px;
 
 }
@@ -405,16 +405,20 @@ four course cards, more courses)  */
  
 .section-4-about-us {
     display: flex;
+    flex-direction: column;
+
+    background-position-x: left;
+    background-position-y: -10px;
+}
+
+.wrapper-info-4 {
+    display: flex;
     justify-content: center;
     align-items: center;
     gap: 204px;
     
     padding-left: 21px;
-    height: 934px;
-
-    background: url('../images/section4_circle_oval.png') no-repeat;
-    background-size: 189px 219px;
-    background-position-x: left;
+    height: 656px;
 }
 
 .photo-wrapper-4 {
@@ -449,13 +453,21 @@ four course cards, more courses)  */
 
 .circle-wrapper-4 {
     display: flex;
-    justify-content: flex-end;
-    
-    width: 1033px;
+    justify-content: space-between;
+    align-items: center;
     margin-top: 83px;
+    margin-bottom: 30px;
+    height: 30px;
+    width: 1247px;
 
-    position: absolute;
     align-self: normal;
+}
+
+.circle-wrapper-4 img {
+    width: 189px;
+    height: 219px;
+    margin-bottom: -30px;
+
 }
 
 .circle-4 {
