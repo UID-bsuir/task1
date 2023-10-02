@@ -548,7 +548,9 @@ four course cards, more courses)  */
     color: #b885fd;
     background-color: #FFF;
 }
+
 /* SECTION 5 (y us, read море)*/
+
 .section-5-why-us-more{
     height: 1000px;      /* i guess, this will be modified */
 
@@ -614,7 +616,7 @@ four course cards, more courses)  */
 }
 
 .wrapper-side-right-main-text-5 p:first-child {
-    margin: 58px 0 51px 0;
+    margin: 61px 0 48px 0;
 }
 
 .wrapper-side-right-main-text-5 p {
