@@ -844,8 +844,6 @@ four course cards, more courses)  */
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
-
 }
 
 .wrapper-top-text-7 {
@@ -998,8 +996,10 @@ four course cards, more courses)  */
 .section-8-photo-subscribe {
     display:flex;
     justify-content: flex-end;
+
     height: 1000px;
     padding: 0 90px 0 56px;
+    margin-top: 56px;
 
     background: url('../images/section8_portrait.png') no-repeat;
     background-position-y: -2px;
