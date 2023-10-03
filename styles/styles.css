@@ -104,7 +104,7 @@ body {
 .wrapper-side-1{
     display: flex;
     justify-content: space-between;
-    padding-bottom: 67px;
+    padding-bottom: 64px;
 }
     
 .wrapper-top-side-1.aligned-left-1{
@@ -211,8 +211,8 @@ body {
     border: 2px solid #f1f1f1;
     height: 102px;
     width: 179px;
-    margin-top:68px;
-    margin-left:100px;
+    margin-top:67px;
+    margin-left:99px;
 }
 
 .wrapper-right-border-1 h2{
@@ -251,6 +251,7 @@ body {
     font-weight: 600;
     line-height: 26.73px;
     letter-spacing: 0.5px;
+    margin-left:3px;
 }
 
 .wrapper-top-side-1.aligned-right-bottom-1 span{
@@ -265,6 +266,7 @@ body {
     
  .wrapper-right-button-1{
     display: flex;
+
  }   
  
  .wrapper-right-button-1 p{
@@ -278,7 +280,7 @@ body {
 }
  
 .wrapper-right-button-1 button {
-    width: 125px;
+    width: 128px;
     height: 48px;
     padding-left: 2px;
     background-color: #b960fd;
@@ -289,6 +291,7 @@ body {
     font-weight: 700;
     letter-spacing: 0.75px;
     text-transform: uppercase;
+    margin-right:23px;
 }
     
 .wrapper-right-button-1 button:hover {
@@ -389,7 +392,6 @@ body {
 .wrapper-line-aligned-center-1 {
     width: 246px;
     margin-top: 78px;
-    margin-left: 85px;
     display: flex;
 }
 
@@ -430,9 +432,8 @@ body {
 }
 
 .wrapper-line-aligned-right-1 {
-    width: 370px;
+    width: 373px;
     margin-top: 78px;
-    margin-left: 85px;
     display: flex;
 }
 
