@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+}
+
+body {
+    background-color: #111;
+    font-family: 'Krub', sans-serif;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.hero-wrapper {
+    width: 1440px;
+    overflow-x: hidden;
+}
+
+.button-hover:hover {
+    background-color: #333;
+}
+
+.button-click:active {
+    transform: translateY(3px);
+}
+ 
+.link-hover:hover {
+    color: #363636;
+}
+
+.arrow-hover:hover {
+    filter: opacity(0.3) drop-shadow(0 0 0 #aa84f9);
+}
+
+.icon-hover:hover {
+    background-color: #363636;
+}

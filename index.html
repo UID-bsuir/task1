@@ -5,7 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UI Landing</title>
     <!-- Defining local styles -->
-    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/common.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/section1.css">
+    <link rel="stylesheet" href="./styles/section2.css">
+    <link rel="stylesheet" href="./styles/section3.css">
+    <link rel="stylesheet" href="./styles/section4.css">
+    <link rel="stylesheet" href="./styles/section5.css">
+    <link rel="stylesheet" href="./styles/section6.css">
+    <link rel="stylesheet" href="./styles/section7.css">
+    <link rel="stylesheet" href="./styles/section8.css">
+    <link rel="stylesheet" href="./styles/footer.css">
     <!-- Defining fonts -->
     <!-- Krub -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,22 +33,22 @@
         <!-- landing header (logo, 
         navigation buttons, menu) -->
         <header class="header">
-            <img src="./images/logo.png" alt="logo">
+            <img src="./images/header/logo.png" alt="logo">
             <div class="wrapper-menu-parts">
                 <div class="wrapper-menu-items">
-                    <p>Home</p>
-                    <p>About</p>
-                    <p>Courses</p>
-                    <p>Blog</p>
-                    <button>Sign in</button>
+                    <p><a href="#start">Home</a></p>
+                    <p><a href="#about">About</a></p>
+                    <p><a href="#courses">Courses</a></p>
+                    <p><a href="#blog">Blog</a></p>
+                    <button class="button-hover button-click">Sign in</button>
                 </div>
-                <img src="./images/menu-icon.png" alt="menu icon">
+                <img src="./images//header/menu-icon.png" alt="menu icon">
             </div>
         </header>
 
         <!-- section 1 (photo, let's start 
         button, +150 50 +100 panel) -->
-        <section class="section-1-lets-start">
+        <section class="section-1-lets-start" id="start">
             <div class="wrapper-top-1">
                 <div class="wrapper-aligned-left-1" >
                     <h2>ui<span>.</span></h2>
@@ -53,7 +63,7 @@
                     </div>
                 </div>
                 <div class="wrapper-aligned-center-1">
-                    <img src="./images/section1_portrait.png">
+                    <img src="./images/section1/portrait.png">
                     <div class="wrapper-circle-1"></div>
                 </div>
                 <div class="wrapper-aligned-right-1">
@@ -71,31 +81,31 @@
                             eiusmod tempor incididunt ut labore .</p>
                         </div>
                         <div class="wrapper-right-button-1">
-                            <button>let's start</button>
-                            <p>read more</p>
+                            <button class="button-hover button-click">let's start</button>
+                            <p><a href="#" class="link-hover">Read more</a></p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="wrapper-bottom-arrows-1">
                 <div>
-                    <img src="./images/down_arrow.png">
+                    <img src="./images/common/down_arrow.png" class="arrow-hover">
                 </div>
                 <div>
-                    <img src="./images/down_arrow.png">
+                    <img src="./images/common/down_arrow.png" class="arrow-hover">
                 </div>
             </div>
             <hr>
-            <div class="wrapper-numbers">
-                <div class="wrapper-number">
+            <div class="wrapper-numbers-1">
+                <div class="wrapper-number-1">
                     <p><span>+</span>150<p>
                     <h3>happy <br> <span>students</span></h3>
                 </div>
-                <div class="wrapper-number">
+                <div class="wrapper-number-1">
                     <p><span>+</span>50<p>
                     <h3>certified <br> <span>courses</span></h3>
                 </div>
-                <div class="wrapper-number">
+                <div class="wrapper-number-1">
                     <p><span>+</span>1000<p>
                     <h3>awards <br> <span>received</span></h3>
                 </div>
@@ -131,14 +141,14 @@
             </div>
             <div class="wrapper-bottom-2">
                 <p>Explore</p>
-                <img src="./images/down_arrow.png" alt="arrow down">
+                <img src="./images/common/down_arrow.png" alt="arrow down"  class="arrow-hover">
                 <p>About</p>
             </div>
         </section>
 
         <!-- section 3 (find your course,
         four course cards, more courses) -->
-        <section class="section-3-courses">
+        <section class="section-3-courses" id="courses">
             <div class="wrapper-title-3">
                 <h2 class="header-left-3">
                     <span>Find</span> 
@@ -160,7 +170,7 @@
                         <h3>Course <span>01</span></h3>
                         <hr>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
-                        <button>Read more</button>
+                        <button class="button-hover button-click">Read more</button>
                     </div>
                 </div>
                 <div class="wrapper-card-3">
@@ -169,7 +179,7 @@
                         <h3>Course <span>02</span></h3>
                         <hr>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
-                        <button>Read more</button>
+                        <button class="button-hover button-click">Read more</button>
                     </div>
                 </div>
                 <div class="wrapper-card-3">
@@ -178,7 +188,7 @@
                         <h3>Course <span>03</span></h3>
                         <hr>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
-                        <button>Read more</button>
+                        <button class="button-hover button-click">Read more</button>
                     </div>
                 </div>
                 <div class="wrapper-card-3">
@@ -187,21 +197,21 @@
                         <h3>Course <span>04</span></h3>
                         <hr>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <span>incididunt ut labore et.</span></p>
-                        <button>Read more</button>
+                        <button class="button-hover button-click">Read more</button>
                     </div>
                 </div>
             </div>
             <div class="wrapper-more-courses-3">
-                <p>More courses</p>
-                <img src="./images/down_arrow.png" alt="right arrow">            
+                <p><a href="#" class="link-hover">More courses</a></p>
+                <img src="./images/common/down_arrow.png" alt="right arrow" class="arrow-hover">            
             </div>
         </section>
 
         <!-- section 4 (about us, read more, 
         photo) -->
-        <section class="section-4-about-us">
+        <section class="section-4-about-us" id="about">
             <div class="circle-wrapper-4">
-                <img src="../images/section4_circle_oval.png" alt="oval with a circle">
+                <img src="./images/section4/circle_oval.png" alt="oval with a circle">
                 <div class="circle-4"></div>
             </div>
             <div class="wrapper-info-4">
@@ -226,10 +236,10 @@
                             <p>Lorem ipsum dolor.</p>
                         </div>
                     </div>
-                    <button>Read more</button>
+                    <button class="button-hover button-click">Read more</button>
                 </div>
                 <div class="photo-wrapper-4">
-                    <img class="photo-4" src="./images/section4_portait.png" alt="person photo">
+                    <img class="photo-4" src="./images/section4/portait.png" alt="person photo">
                     <div class="photo-circle-wrapper-4">
                         <div></div>
                     </div>
@@ -250,7 +260,7 @@
                 <div class="wrapper-side-left-dude-in-circle-5">
                 
                     <div class="circle-5"></div>
-                    <img src="./images/section5_portrait.png" alt="why us">
+                    <img src="./images/section5/portrait.png" alt="why us">
                     
                 </div>
                 <div class="wrapper-side-right-texter-5">
@@ -258,13 +268,17 @@
                         <div class="wrapper-side-right-main-text-5">
                             <p>Why<span>us.</span></p>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum iure aut illum inventore illo. Ex dolores sit ad odit iste reprehenderit. Minus itaque ut porro praesentium nesciunt aliquam iure molestiae corporis optio, odit, reiciendis beatae voluptates, architecto veritatis dolore.</p>
-                            <button>Read more</button>
+                            <button class="button-hover button-click">Read more</button>
                         </div>
                         <div class="wrapper-side-right-text-5">
                             <p>Explore</p>
                         </div>
                     </div>
-                    <div class="circle-small-5 problem-bottom-5"></div>
+                    <div class="circle-small-5">
+                        <div>
+                            <div class="problem-bottom-5"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -274,17 +288,17 @@
             <div class="wrapper-side-6 aligned-left-6">
                 <div>
                     <p>Ready to <br> get started</p>
-                    <img src="./images/down_arrow_bold.png" alt="bold arrow">
+                    <img src="./images/common/down_arrow_bold.png" alt="bold arrow">
                 </div>
             </div>
             <div class="wrapper-central-video-6">
                 <p>Start</p>
-                <img src="./images/play_button.png" alt="play button">
+                <img src="./images/section6/play_button.png" alt="play button">
                 <p>now</p>
             </div>
             <div class="wrapper-side-6 aligned-right-6">
                 <div>
-                    <img src="./images/down_arrow_bold.png" alt="bold arrow">
+                    <img src="./images/common/down_arrow_bold.png" alt="bold arrow">
                     <p>Ready to <br> get started</p>
                 </div>
             </div>
@@ -299,7 +313,7 @@
                 </div>
                 <div class="wrapper-all-reviews-7">
                     <div class="wrapper-review-7">
-                        <div class="wrapper-reviews-img-block-7"><img src="./images/section7_user1.png" alt="Laura Smith"></div>
+                        <div class="wrapper-reviews-img-block-7"><img src="./images/section7/user1.png" alt="Laura Smith"></div>
                         <p class="wrapper-name-7">Laura Smith</p>
                         <div class="wrapper-stars-7">
                             <i class="fa-sharp fa-solid fa-star" style="color: #70599f;"></i>
@@ -315,7 +329,7 @@
                         </div>                
                     </div>
                     <div class="wrapper-review-7">
-                        <div class="wrapper-reviews-img-block-7"><img src="./images/section7_user2.png" alt="Jhon Smith"></div>
+                        <div class="wrapper-reviews-img-block-7"><img src="./images/section7/user2.png" alt="Jhon Smith"></div>
                         <p class="wrapper-name-7">Jhon Smith</p>
                         <div class="wrapper-stars-7">
                             <i class="fa-sharp fa-solid fa-star" style="color: #70599f;"></i>
@@ -331,7 +345,7 @@
                         </div>
                     </div>
                     <div class="wrapper-review-7">
-                        <div class="wrapper-reviews-img-block-7"><img src="./images/section7_user3.png" alt="Sara Smith"></div>
+                        <div class="wrapper-reviews-img-block-7"><img src="./images/section7/user3.png" alt="Sara Smith"></div>
                         <p class="wrapper-name-7">Sara Smith</p>
                         <div class="wrapper-stars-7">
                             <i class="fa-sharp fa-solid fa-star" style="color: #70599f;"></i>
@@ -348,8 +362,8 @@
                     </div>
                 </div>
                 <div class="wrapper-bottom-arrows-7">
-                    <img src="./images/down_arrow_bold.png" alt="bold arrow">
-                    <img src="./images/down_arrow_bold.png" alt="bold arrow">
+                    <img src="./images/common/down_arrow_bold.png" alt="bold arrow" class="arrow-hover">
+                    <img src="./images/common/down_arrow_bold.png" alt="bold arrow" class="arrow-hover">
                 </div>
             </div>
         </section>
@@ -373,32 +387,32 @@
                     <textarea placeholder="Mail"></textarea>
                     <textarea placeholder="Message"></textarea>
                 </div>
-                <button>Send message</button>
+                <button class="button-hover button-click">Send message</button>
             </div>
         </section>
 
         <!-- landing footer (what we do,
         input, socials)  -->
-        <footer class="footer">
+        <footer class="footer" id="blog">
             <div>
                 <div class="wrapper-lists-f">
                     <div class="wrapper-list-f">
                         <h3>About</h3> 
                         <hr>
-                        <p>History</p>
-                        <p>Our Team</p>
-                        <p>Mission Statement</p>
-                        <p>Terms & Condition</p>
-                        <p>Privacy Policy</p>
+                        <p><a href="#" class="link-hover">History</a></p>
+                        <p><a href="#" class="link-hover">Our Team</a></p>
+                        <p><a href="#" class="link-hover">Mission Statement</a></p>
+                        <p><a href="#" class="link-hover">Terms & Condition</a></p>
+                        <p><a href="#" class="link-hover">Privacy Policy</a></p>
                     </div>
                     <div class="wrapper-list-f">
                         <h3>What we do</h3>
                         <hr>
-                        <p>News and stories</p>
-                        <p>Publications</p>
-                        <p>Take action</p>
-                        <p>Recomendations</p>
-                        <p>Help</p>
+                        <p><a href="#" class="link-hover">News and stories</a></p>
+                        <p><a href="#" class="link-hover">Publications</a></p>
+                        <p><a href="#" class="link-hover">Take action</a></p>
+                        <p><a href="#" class="link-hover">Recomendations</a></p>
+                        <p><a href="#" class="link-hover">Help</a></p>
                     </div>
                 </div>
                 <div class="wrapper-sign-up-f">
@@ -410,9 +424,9 @@
                     <div class="wrapper-input-f"></div>
                     <div class="wrapper-brands-f">
                         <p>Follow us!</p>
-                        <i class="fa-brands fa-facebook-f fa-xl" style="color: #976ece;"></i>
-                        <i class="fa-brands fa-instagram fa-xl" style="color: #976ece;"></i>
-                        <i class="fa-brands fa-youtube fa-xl" style="color: #976ece;"></i>
+                        <a href="#"><i class="fa-brands fa-facebook-f fa-xl icon-hover" style="color: #976ece;"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram fa-xl icon-hover" style="color: #976ece;"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube fa-xl icon-hover" style="color: #976ece;"></i></a>
                     </div>
                 </div>
             </div>
