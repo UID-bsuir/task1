@@ -105,10 +105,6 @@
     background-color: #aa84f9;
 }
 
-.wrapper-side-right-main-text-5 button:hover {
-    background-color: #333;
-}
-
 .wrapper-side-right-text-5 {
     display: flex;
     align-content: flex-end;
