@@ -1,0 +1,154 @@
+.section-4-about-us {
+    display: flex;
+    flex-direction: column;
+
+    background-position-x: left;
+    background-position-y: -10px;
+}
+
+.wrapper-info-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 204px;
+    
+    padding-left: 21px;
+    height: 656px;
+}
+
+.photo-wrapper-4 {
+    width: 529px;
+    height: 759px;
+}
+
+.photo-4 {
+    height: 647px;
+    width: 483px;
+    position: absolute;
+    z-index: 100;
+}
+
+.photo-circle-wrapper-4 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo-circle-wrapper-4 div {
+    position: absolute;
+    height:  395px;
+    width: 395px;
+    border-radius: 50%;
+    background-color: #b885fd;
+    z-index: 0;
+    margin: 0 46px 90px 0;
+}
+
+.circle-wrapper-4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 83px 0 30px 0;
+    height: 30px;
+    width: 1247px;
+
+    align-self: normal;
+}
+
+.circle-wrapper-4 img {
+    width: 189px;
+    height: 219px;
+    margin-bottom: -30px;
+
+}
+
+.circle-4 {
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+
+    background-color: #b885fd; 
+}
+
+.wrapper-text-block-4 {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 72px;
+    height: 481px;
+}
+
+.wrapper-text-block-4 h2 {
+    margin-bottom: 24px;
+
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 3.4px;
+}
+
+.wrapper-text-block-4 h2 span {
+    padding-left: 12px;
+
+    font-weight: 400;
+    color: #b885fd;
+    letter-spacing: 7.4px;
+}
+
+.wrapper-text-block-4 > p {
+    width: 377px;
+   
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: justify;
+    word-spacing: 1.25px;
+    letter-spacing: 0.462px;
+}
+
+.options-table-4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+    
+    width: 431px;
+    height: 134px;
+    margin-top: 43px;
+}
+
+.options-table-4 div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 7px;
+}
+
+.options-table-4 div p {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 1.256px;
+}
+
+.wrapper-text-block-4 button {
+    width: 126px;
+    height: 50px;
+    margin: 45px 0 0 -1px;
+
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+    color: #FFF;
+    text-transform: uppercase;
+
+    background-color: #b885fd; 
+    border: none;
+}
+
+.wrapper-text-block-4 button:hover {
+    color: #b885fd;
+    background-color: #FFF;
+}

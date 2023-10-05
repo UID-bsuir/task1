@@ -1,0 +1,21 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+}
+
+body {
+    background-color: #111;
+    font-family: 'Krub', sans-serif;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+
+}
+
+.hero-wrapper {
+    width: 1440px;
+    overflow-x: hidden;
+
+}

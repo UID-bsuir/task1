@@ -1,0 +1,166 @@
+.section-5-why-us-more{
+    height: 1000px;      /* i guess, this will be modified */
+
+    padding: 0 56px 0 56px;
+    
+    background: url('../images/section5/circle_oval.png') no-repeat;
+    background-size: 198px 260px;
+    background-position-x: right;
+    background-position-y:8px ;
+}
+
+.wrapper-oval-and-circle-at-top-5{
+    display: flex;
+    justify-content: center;
+    
+    height:346px;
+}
+
+.circle-at-top-5{
+    width:246px;
+}
+
+.main-content-5{
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper-side-left-dude-in-circle-5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+
+    width: 664px;
+    height: 642px;
+
+    background: url('../images/section5/oval_transformed.png') no-repeat;
+    background-size: 100%;
+    background-position-y: 31px;
+}
+
+.wrapper-side-left-dude-in-circle-5 img {
+    margin-left: 76px;
+    position: absolute;
+}
+
+.wrapper-side-right-texter-5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+
+    margin: 72px -56px 0 0;
+    width: 560px;
+    height: 579px;
+}
+
+.wrapper-text-no-circle-5 {
+    display: flex;
+}
+
+.wrapper-side-right-main-text-5 {
+    width: 500px;
+}
+
+.wrapper-side-right-main-text-5 p:first-child {
+    margin: 61px 0 48px 0;
+}
+
+.wrapper-side-right-main-text-5 p {
+    width: 376px;
+    margin-bottom: 39px;
+    
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 24.8px;
+}
+
+.wrapper-side-right-main-text-5 p:first-child {
+    font-weight: 700;
+    font-size: 60px;
+    letter-spacing: 4px;
+}
+
+.wrapper-side-right-main-text-5 span {
+    padding-left: 10px;
+    color: #aa84f9;
+    letter-spacing: 8px;
+    font-size: 58px;
+    font-weight: 400;
+}
+
+.wrapper-side-right-main-text-5 button {
+    width: 126px;
+    height: 50px;
+    
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    color: #ffffff;
+    font-weight: 600;
+   
+    border: none;
+    background-color: #aa84f9;
+}
+
+.wrapper-side-right-main-text-5 button:hover {
+    background-color: #333;
+}
+
+.wrapper-side-right-text-5 {
+    display: flex;
+    align-content: flex-end;
+    justify-content: center;
+    flex-wrap: wrap;
+ 
+    width: 59px;
+}
+
+.wrapper-side-right-text-5 p {
+    position: relative;
+    left: 10px;
+
+    transform: rotate(-90deg);
+    width: 273px;
+
+    font-size: 103px;
+    font-weight: 700;
+    letter-spacing: 6.2px;
+    line-height: 120px;
+    color:#252525; 
+    text-transform: uppercase;
+    text-align: justify;
+}
+
+.circle-5 {
+    margin-top: 72px;
+    width: 395px;
+    height: 395px;
+
+    background-color: #aa84f9;
+    border-radius: 50%;
+}
+
+.circle-small-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.circle-small-5 > div {
+    width: 298px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.circle-small-5 > div > div {
+    width: 22px;
+    height: 22px;
+
+    background-color: #aa84f9;
+    border-radius: 50%;
+}
