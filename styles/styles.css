@@ -495,7 +495,7 @@ body {
     margin-top: 20px;
     margin-left: 3px ;
 
-    background: url('../images/oval_with_circles.png') no-repeat;
+    background: url('../images/section2/oval_with_circles.png') no-repeat;
     background-size: 74.5%;
     background-position: 139px 33px;
 }
@@ -895,7 +895,7 @@ four course cards, more courses)  */
 
     padding: 0 56px 0 56px;
     
-    background: url('../images/section5_circle_oval.png') no-repeat;
+    background: url('../images/section5/section5_circle_oval.png') no-repeat;
     background-size: 198px 260px;
     background-position-x: right;
     background-position-y:8px ;
@@ -925,7 +925,7 @@ four course cards, more courses)  */
     width: 664px;
     height: 642px;
 
-    background: url('../images/section5_oval_transformed.png') no-repeat;
+    background: url('../images/section5/section5_oval_transformed.png') no-repeat;
     background-size: 100%;
     background-position-y: 31px;
 }
@@ -1074,7 +1074,7 @@ four course cards, more courses)  */
     align-items: center;
     justify-content: space-between;
 
-    background: url('../images/section6_video.png') no-repeat;
+    background: url('../images/section6/section6_video.png') no-repeat;
     background-size: 100% 100%;
 
     height: 606px;
@@ -1337,7 +1337,7 @@ four course cards, more courses)  */
     padding: 0 90px 0 56px;
     margin-top: 56px;
 
-    background: url('../images/section8_portrait.png') no-repeat;
+    background: url('../images/section8/section8_portrait.png') no-repeat;
     background-position-y: -2px;
 }   
 
