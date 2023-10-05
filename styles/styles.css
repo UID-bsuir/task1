@@ -428,6 +428,7 @@ body {
 
 .section-2-new-challenges {
     display: flex;
+    justify-content: flex-end;
     flex-direction: column;
 
     padding: 0 56px 0 56px;
@@ -531,7 +532,11 @@ body {
 four course cards, more courses)  */
 
 .section-3-courses {
-    height: 769px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    height: 918px;
     padding: 0 56px 0 56px;
 
 }
