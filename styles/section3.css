@@ -150,20 +150,20 @@
 }
 
 .wrapper-card-3 button {
-   width: 125px;
-   height: 48px;
+    width: 125px;
+    height: 48px;
 
-   padding-bottom: 3px;
+    padding-bottom: 3px;
 
-   background-color: #b885fd; 
-   border: 1px solid rgb(84, 63, 11);
+    background-color: #b885fd; 
+    border: none;
 
-   font-family: 'Oswald', sans-serif;
-   font-size: 15px;
-   font-weight: 700;
-   letter-spacing: 0.6px;
-   color: #FFF;
-   text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+    color: #FFF;
+    text-transform: uppercase;
 }
 
 .wrapper-more-courses-3 {

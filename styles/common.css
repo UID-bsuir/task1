@@ -14,6 +14,11 @@ body {
 
 }
 
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
 .hero-wrapper {
     width: 1440px;
     overflow-x: hidden;
@@ -25,13 +30,16 @@ body {
 
 .button-click:active {
     transform: translateY(3px);
-
 }
  
 .link-hover:hover {
-    text-decoration: underline;
+    color: #363636;
 }
 
 .arrow-hover:hover {
     filter: opacity(0.3) drop-shadow(0 0 0 #aa84f9);
+}
+
+.icon-hover:hover {
+    background-color: #363636;
 }
