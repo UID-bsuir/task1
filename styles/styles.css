@@ -785,8 +785,7 @@ four course cards, more courses)  */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 83px;
-    margin-bottom: 30px;
+    margin: 83px 0 30px 0;
     height: 30px;
     width: 1247px;
 
@@ -833,7 +832,6 @@ four course cards, more courses)  */
 }
 
 .wrapper-text-block-4 > p {
-    margin-top: 24px 1px 0 0;
     width: 377px;
    
     font-weight: 700;
@@ -1038,18 +1036,26 @@ four course cards, more courses)  */
 }
 
 .circle-small-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.circle-small-5 > div {
+    width: 298px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.circle-small-5 > div > div {
     width: 22px;
     height: 22px;
 
     background-color: #aa84f9;
     border-radius: 50%;
 }
-
-/* the large margin that needs to be modified */
-.problem-bottom-5{
-    margin-right: 132px;
-}
-
 
 /* SECTION 6 (start now 'video') */
 
