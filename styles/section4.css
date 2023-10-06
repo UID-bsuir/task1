@@ -117,11 +117,19 @@
     margin-top: 43px;
 }
 
+.options-table-4 i {
+    font-size: 8px;
+}
+
+.options-table-4 div:nth-child(2n) {
+    gap: 6px;
+}
+
 .options-table-4 div {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap: 7px;
+    gap: 9px;
 }
 
 .options-table-4 div p {
