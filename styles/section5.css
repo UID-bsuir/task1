@@ -1,26 +1,25 @@
-.section-5-why-us-more{
-    height: 1000px;      /* i guess, this will be modified */
+.section-5-why-us-more {
+    height: 1000px;
 
     padding: 0 56px 0 56px;
     
     background: url('../images/section5/circle_oval.png') no-repeat;
     background-size: 198px 260px;
-    background-position-x: right;
-    background-position-y:8px ;
+    background-position: right 8px;
 }
 
-.wrapper-oval-and-circle-at-top-5{
+.wrapper-oval-and-circle-at-top-5 {
     display: flex;
     justify-content: center;
     
     height:346px;
 }
 
-.circle-at-top-5{
+.circle-at-top-5 {
     width:246px;
 }
 
-.main-content-5{
+.main-content-5 {
     display: flex;
     justify-content: space-between;
 }

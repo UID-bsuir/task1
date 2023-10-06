@@ -33,8 +33,7 @@
 }
 
 .wrapper-central-video-6 img {
-    margin-top: 25px;
-    margin-right: 65px;
+    margin: 25px 65px 0 0;
     mix-blend-mode: hard-light;
 }
 
