@@ -1,5 +1,5 @@
 .section-1-lets-start {
-    padding: 58px 56px 0 56px;
+    padding: 58px 57px 0 56px;
     height: 900px;
 }   
     
@@ -150,7 +150,7 @@
 
 .aligned-right-bottom-1 {
     width: 300px;
-    margin: 1px 0 0 -61px;
+    margin: 1px 0 0 -60px;
 }
 
 .aligned-right-bottom-1 h2 {
@@ -204,7 +204,8 @@
     
     margin: 1px 0px 0 2px;
 
-    padding-left: 2px;
+    /* padding-left: 1px; */
+    padding-top: 1px;
     background-color: #b960fd;
     color: #FFF;
     border: none;
@@ -219,7 +220,6 @@
     display: flex;
     justify-content: space-around;
 }
- 
 
 .wrapper-bottom-arrows-1 div {
     width: 100px;
