@@ -1,5 +1,5 @@
 .section-1-lets-start {
-    padding: 58px 56px 0 56px;
+    padding: 58px 57px 0 56px;
     height: 900px;
 }   
     
@@ -150,7 +150,7 @@
 
 .aligned-right-bottom-1 {
     width: 300px;
-    margin: 1px 0 0 -61px;
+    margin: 1px 0 0 -60px;
 }
 
 .aligned-right-bottom-1 h2 {
@@ -203,8 +203,8 @@
     height: 46px;
     
     margin: 1px 0px 0 2px;
-
     padding: 1px 0 0 1px;
+ 
     background-color: #b960fd;
     color: #FFF;
     border: none;
@@ -219,7 +219,6 @@
     display: flex;
     justify-content: space-around;
 }
- 
 
 .wrapper-bottom-arrows-1 div {
     width: 100px;
@@ -238,7 +237,7 @@
     width: 24px;
     height: 60px;
     transform: rotate(90deg);
-    margin-left: 69px;
+    margin-left: 68px;
 }
 
 .wrapper-numbers-1  {
@@ -249,6 +248,7 @@
     position: relative;
     z-index: 3;
     
+
     height: 220px;
     width: 1359px;
     padding-right: 81px;
@@ -293,20 +293,19 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 9px;
+    gap: 17px;
 
     padding-top: 11px;
 }
 
 .wrapper-number-1:first-child {
-    gap: 11px;
+    gap: 21px;
 }
 
 .wrapper-number-1:last-child {
-    gap: 4px;
+    gap: 9px;
     margin-left: 20px;
 }
-
 
 .wrapper-number-1 h3 {
     text-transform: uppercase;

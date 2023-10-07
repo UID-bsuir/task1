@@ -1,5 +1,6 @@
 # **UI for beginners** Landing Page
 
+
 You can check out our page [here](https://uid-bsuir.github.io/task1/).
 
 The condition of not exceeding a value of 100px when using `margin`, `padding`, `top`, and `left` is typically achieved by using properties from the flex group. `Grid` was not used.
