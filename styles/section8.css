@@ -16,7 +16,7 @@
     align-items: center;
     flex-direction: column;
 
-    margin: 74px 50px 73px 0;
+    margin: 74px 51px 73px 0;
 }
 
 .wrapper-text-8 {
@@ -50,13 +50,13 @@
 }
 
 .wrapper-text-8 p {
-    padding: 40px 1px 0 0;
+    padding-top: 40px;
     margin-bottom: 91px;
 
     width: 465px;
 
     font-size: 15.8px;
-    letter-spacing: 0.65px;
+    letter-spacing: 0.69px;
     line-height: 29.63px;
     font-weight: 600;
     text-align: center;
@@ -69,11 +69,11 @@
     align-items: center;
     flex-direction: column;
     gap: 47px;
+    padding-top: 1px;
 }
 
 .wrapper-bottom-8 textarea {
     box-sizing: border-box;
-    vertical-align: top;
 
     border: 3px solid #9172d1;
     width: 513px;
@@ -81,17 +81,17 @@
     background: transparent;
     resize: none;
 
-    line-height: normal;
     font-size: 17px;
     letter-spacing: 3.5px;
     font-weight: 700;
     color: #6a6a6a;
     text-transform: uppercase;
     font-family: 'Krub', sans-serif;
+    padding: 3px;
 }
 
 .wrapper-bottom-8 textarea::placeholder {
-    padding: 22px 0 0 39px;
+    padding: 19px 0 0 36px;
     font-size: 17px;
     letter-spacing: 3.5px;
     font-weight: 700;
@@ -103,12 +103,12 @@
 
 .wrapper-bottom-8 textarea:first-child {
     margin-bottom: 10px;
-    padding-top: 3px;
+    padding-top: 6px;
 }
 
 .wrapper-bottom-8 textarea:last-child {
     height: 181px;
-    padding-top: 4px;
+    padding-top: 7px;
 }
 
 .wrapper-info-8 button {

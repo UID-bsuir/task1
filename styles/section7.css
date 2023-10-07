@@ -1,7 +1,7 @@
 .section-7-reviews-comments {
     display: flex;
     align-items: center;
-    height: 858px;
+    height: 857px;
     padding: 0 56px 0 56px;
 }
 
@@ -21,12 +21,13 @@
     text-align: center;
     line-height: 52.8px;
     color: #aa84f9;
+    margin-left: 3px;
 }
 
 .wrapper-top-text-7 span {
     font-weight: 700;
     font-size: 93px;
-    letter-spacing: 3px;
+    letter-spacing: 3.8px;
     text-transform: uppercase;
     color: #fff;
 }
@@ -145,6 +146,7 @@
 
 .wrapper-bottom-arrows-7 img:first-child {
     transform: rotate(90deg); 
+    padding-bottom: 2px;
 }
 
 .wrapper-bottom-arrows-7 img:last-child {
